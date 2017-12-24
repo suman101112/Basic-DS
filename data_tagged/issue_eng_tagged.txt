@@ -1,0 +1,1147 @@
+1
+
+Direct##
+
+issue
+------------------
+
+student	: hello sir. -> GREETINGS
+librarian	: hello. -> GREETINGS_REPLY
+student	: I want to issue this book. -> ISSUE
+librarian	: Give me your id card. -> ACTION_DIR
+student	: Ok sir, take my id card. -> COMMIT
+librarian	: I am giving the book. According to rules, you should return the book in 1 month or else you have to pay the fine. -> ISSUE_ASSERT
+student	: Ok sir, I will return the book. -> ACCEPT_ACKNOWLEDGE
+student	: thank you. -> GREETINGS_EOC
+
+2
+
+Direct##
+
+
+issue
+------------------
+
+student	: hello sir. -> GREETINGS
+librarian	: hello. -> GREETINGS_REPLY
+student	: I want to take this book. -> ISSUE
+librarian	: Give your id card to me. -> ACTION_DIR
+student	: Ok sir, take my id card. -> COMMIT
+librarian	: I am giving the book. According to rules, you should return the book in 1 month or else you have to pay the fine. -> ISSUE_ASSERT
+student	: Ok sir, I will return the book. -> ACCEPT_ACKNOWLEDGE
+student	: thank you. -> GREETINGS_EOC
+
+3
+
+Direct##
+
+issue
+------------------
+
+student	: How are you sir? -> GREETINGS
+librarian	: I am fine. thank you. -> GREETINGS_REPLY
+student	: I think that I should issue this book. -> ISSUE
+librarian	: Give your id card to me. -> ACTION_DIR
+student	: Ok sir, take my id card. -> COMMIT
+librarian	: I am giving the book. According to rules, you should return the book in 1 month or else you have to pay the fine. -> ISSUE_ASSERT
+student	: Ok sir, I will return the book. -> ACCEPT_ACKNOWLEDGE
+student	: thank you. -> GREETINGS_EOC
+
+4
+
+Direct##
+
+issue
+------------------
+
+student	: hello sir. -> GREETINGS
+librarian	: hello. -> GREETINGS_REPLY
+student	: I think that I should take this book. -> ISSUE
+librarian	: Give your id card to me. -> ACTION_DIR
+student	: Ok sir, take my id card. -> COMMIT
+librarian	: I am giving the book. According to rules, you should return the book in 1 month or else you have to pay the fine. -> ISSUE_ASSERT
+student	: Ok sir, I will return the book. -> ACCEPT_ACKNOWLEDGE
+student	: thank you. -> GREETINGS_EOC
+
+5
+
+Direct##
+
+issue
+------------------
+
+student	: How are you sir? -> GREETINGS
+librarian	: I am fine. thank you. -> GREETINGS_REPLY
+student	: I should take this book. -> ISSUE
+librarian	: Give your id card to me. -> ACTION_DIR
+student	: Ok sir, take my id card. -> COMMIT
+librarian	: I am giving the book. According to rules, you should return the book in 1 month or else you have to pay the fine. -> ISSUE_ASSERT
+student	: Ok sir, I will return the book. -> ACCEPT_ACKNOWLEDGE
+student	: thank you. -> GREETINGS_EOC
+
+6
+
+Direct##
+
+issue
+------------------
+
+student	: How are you sir? -> GREETINGS
+librarian	: I am fine. thank you. -> GREETINGS_REPLY
+student	: I would like to issue this book. -> ISSUE
+librarian	: Give your id card to me. -> ACTION_DIR
+student	: Ok sir, take my id card. -> COMMIT
+librarian	: I am giving the book. According to rules, you should return the book in 1 month or else you have to pay the fine. -> ISSUE_ASSERT
+student	: Ok sir, I will return the book. -> ACCEPT_ACKNOWLEDGE
+student	: thank you. -> GREETINGS_EOC
+
+7
+
+Direct##
+
+issue
+------------------
+
+student	: hello sir. -> GREETINGS
+librarian	: hello. -> GREETINGS_REPLY
+student	: Give me this book. -> ISSUE
+librarian	: Give your id card to me. -> ACTION_DIR
+student	: Ok sir, take my id card. -> COMMIT
+librarian	: I am giving the book. According to rules, you should return the book in 1 month or else you have to pay the fine. -> ISSUE_ASSERT
+student	: Ok sir, I will return the book. -> ACCEPT_ACKNOWLEDGE
+student	: thank you. -> GREETINGS_EOC
+
+8
+
+Direct##
+
+issue
+------------------
+
+student	: How are you sir? -> GREETINGS
+librarian	: I am fine. thank you. -> GREETINGS_REPLY
+student	: I came here to take this book -> ISSUE
+librarian	: Give your id card to me. -> ACTION_DIR
+student	: Ok sir, take my id card. -> COMMIT
+librarian	: I am giving the book. According to rules, you should return the book in 1 month or else you have to pay the fine. -> ISSUE_ASSERT
+student	: Ok sir, I will return the book. -> ACCEPT_ACKNOWLEDGE
+student	: thank you. -> GREETINGS_EOC
+
+9
+
+Direct##
+
+issue
+------------------
+
+student	: hello sir. -> GREETINGS
+librarian	: hello. -> GREETINGS_REPLY
+student	: I came here to issue this book. -> ISSUE
+librarian	: Give your id card to me. -> ACTION_DIR
+student	: Ok sir, take my id card. -> COMMIT
+librarian	: I am giving the book. According to rules, you should return the book in 1 month or else you have to pay the fine. -> ISSUE_ASSERT
+student	: Ok sir, I will return the book. -> ACCEPT_ACKNOWLEDGE
+student	: thank you. -> GREETINGS_EOC
+
+10
+
+Direct##
+
+issue
+------------------
+
+student	: How are you sir? -> GREETINGS
+librarian	: I am fine. thank you. -> GREETINGS_REPLY
+student	: I am ready to take this book -> ISSUE
+librarian	: Give your id card to me. -> ACTION_DIR
+student	: Ok sir, take my id card. -> COMMIT
+librarian	: I am giving the book. According to rules, you should return the book in 1 month or else you have to pay the fine. -> ISSUE_ASSERT
+student	: Ok sir, I will return the book. -> ACCEPT_ACKNOWLEDGE
+student	: thank you. -> GREETINGS_EOC
+
+11
+
+Direct##
+
+issue
+------------------
+
+student	: How are you sir? -> GREETINGS
+librarian	: I am fine. thank you. -> GREETINGS_REPLY
+student	: I am ready to issue this book. -> ISSUE
+librarian	: Give your id card to me. -> ACTION_DIR
+student	: Ok sir, take my id card. -> COMMIT
+librarian	: I am giving the book. According to rules, you should return the book in 1 month or else you have to pay the fine. -> ISSUE_ASSERT
+student	: Ok sir, I will return the book. -> ACCEPT_ACKNOWLEDGE
+student	: thank you. -> GREETINGS_EOC
+
+12
+
+Direct##
+
+issue
+------------------
+
+student	: How are you sir? -> GREETINGS
+librarian	: I am fine. thank you. It's been a long time since I saw you. -> GREETINGS_REPLY
+student	: From a long time, I am thinking to issue this book. -> ISSUE
+librarian	: Give your id card to me. -> ACTION_DIR
+student	: Ok sir, take my id card. -> COMMIT
+librarian	: I am giving the book. According to rules, you should return the book in 1 month or else you have to pay the fine. -> ISSUE_ASSERT
+student	: Ok sir, I will return the book. -> ACCEPT_ACKNOWLEDGE
+student	: thank you. -> GREETINGS_EOC
+
+13
+
+Indirect##
+
+issue
+------------------
+
+student	: How are you sir? -> GREETINGS
+librarian	: I am fine. thank you. It's been a long time since I saw you. -> GREETINGS_REPLY
+student	: I like this book. -> ISSUE
+librarian	: Should I issue this book to you? -> ISSUE_INFO_REQUEST
+student	: Yes sir. -> ACCEPT
+librarian	: Give your id card to me. -> ACTION_DIR
+student	: Ok sir, take my id card. -> COMMIT
+librarian	: I am giving the book. According to rules, you should return the book in 1 month or else you have to pay the fine. -> ISSUE_ASSERT
+student	: Ok sir, I will return the book. -> ACCEPT_ACKNOWLEDGE
+student	: thank you. -> GREETINGS_EOC
+
+14
+
+Indirect##
+
+issue
+------------------
+
+student	: hello sir. -> GREETINGS
+librarian	: hello. -> GREETINGS_REPLY
+student	: I like this book very much. -> ISSUE
+librarian	: Should I issue this book to you? -> ISSUE_INFO_REQUEST
+student	: Yes sir. -> ACCEPT
+librarian	: Give your id card to me. -> ACTION_DIR
+student	: Ok sir, take my id card. -> COMMIT
+librarian	: I am giving the book. According to rules, you should return the book in 1 month or else you have to pay the fine. -> ISSUE_ASSERT
+student	: Ok sir, I will return the book. -> ACCEPT_ACKNOWLEDGE
+student	: thank you. -> GREETINGS_EOC
+
+15
+
+Indirect##
+
+issue
+------------------
+
+student	: How are you sir? -> GREETINGS
+librarian	: I am fine. thank you. -> GREETINGS_REPLY
+student	: I want to read this book. -> ISSUE
+librarian	: Should I issue this book to you? -> ISSUE_INFO_REQUEST
+student	: Yes sir. -> ACCEPT
+librarian	: Give your id card to me. -> ACTION_DIR
+student	: Ok sir, take my id card. -> COMMIT
+librarian	: I am giving the book. According to rules, you should return the book in 1 month or else you have to pay the fine. -> ISSUE_ASSERT
+student	: Ok sir, I will return the book. -> ACCEPT_ACKNOWLEDGE
+student	: thank you. -> GREETINGS_EOC
+
+16
+
+Indirect##
+
+issue
+------------------
+
+student	: How are you sir? -> GREETINGS
+librarian	: I am fine. thank you. It's been a long time since I saw you -> GREETINGS_REPLY
+student	: I would like to read this book. -> ISSUE
+librarian	: Should I issue this book to you? -> ISSUE_INFO_REQUEST
+student	: Yes sir. -> ACCEPT
+librarian	: Give your id card to me. -> ACTION_DIR
+student	: Ok sir, take my id card. -> COMMIT
+librarian	: I am giving the book. According to rules, you should return the book in 1 month or else you have to pay the fine. -> ISSUE_ASSERT
+student	: Ok sir, I will return the book. -> ACCEPT_ACKNOWLEDGE
+student	: thank you. -> GREETINGS_EOC
+
+17
+
+Indirect##
+
+issue
+------------------
+
+student	: hello sir. -> GREETINGS
+librarian	: hello. -> GREETINGS_REPLY
+student	: I like reading this book. -> ISSUE
+librarian	: Should I issue this book to you? -> ISSUE_INFO_REQUEST
+student	: Yes sir. -> ACCEPT
+librarian	: Give your id card to me. -> ACTION_DIR
+student	: Ok sir, take my id card. -> COMMIT
+librarian	: I am giving the book. According to rules, you should return the book in 1 month or else you have to pay the fine. -> ISSUE_ASSERT
+student	: Ok sir, I will return the book. -> ACCEPT_ACKNOWLEDGE
+student	: thank you. -> GREETINGS_EOC
+
+18
+
+Indirect##
+
+issue
+------------------
+
+student	: How are you sir? -> GREETINGS
+librarian	: I am fine. thank you. -> GREETINGS_REPLY
+student	: I am enthusiastic to read this book. -> ISSUE
+librarian	: Should I issue this book to you? -> ISSUE_INFO_REQUEST
+student	: Yes sir. -> ACCEPT
+librarian	: Give your id card to me. -> ACTION_DIR
+student	: Ok sir, take my id card. -> COMMIT
+librarian	: I am giving the book. According to rules, you should return the book in 1 month or else you have to pay the fine. -> ISSUE_ASSERT
+student	: Ok sir, I will return the book. -> ACCEPT_ACKNOWLEDGE
+student	: thank you. -> GREETINGS_EOC
+
+19
+
+Indirect##
+
+issue
+------------------
+
+student	: How are you sir? -> GREETINGS
+librarian	: I am fine. thank you. -> GREETINGS_REPLY
+student	: I think of reading this book. -> ISSUE
+librarian	: Should I issue this book to you? -> ISSUE_INFO_REQUEST
+student	: Yes sir. -> ACCEPT
+librarian	: Give your id card to me. -> ACTION_DIR
+student	: Ok sir, take my id card. -> COMMIT
+librarian	: I am giving the book. According to rules, you should return the book in 1 month or else you have to pay the fine. -> ISSUE_ASSERT
+student	: Ok sir, I will return the book. -> ACCEPT_ACKNOWLEDGE
+student	: thank you. -> GREETINGS_EOC
+
+20
+
+Indirect##
+
+issue
+------------------
+
+student	: How are you sir? -> GREETINGS
+librarian	: I am fine. thank you. It's been a long time since I saw you -> GREETINGS_REPLY
+student	: This book is very good to read. -> ISSUE
+librarian	: Should I issue this book to you? -> ISSUE_INFO_REQUEST
+student	: Yes sir. -> ACCEPT
+librarian	: Give your id card to me. -> ACTION_DIR
+student	: Ok sir, take my id card. -> COMMIT
+librarian	: I am giving the book. According to rules, you should return the book in 1 month or else you have to pay the fine. -> ISSUE_ASSERT
+student	: Ok sir, I will return the book. -> ACCEPT_ACKNOWLEDGE
+student	: thank you. -> GREETINGS_EOC
+
+21
+
+Indirect##
+
+issue
+------------------
+
+student	: hello sir. -> GREETINGS
+librarian	: hello. -> GREETINGS_REPLY
+student	: My friends said that this book is very interesting to read. So I am thinking.. -> ISSUE
+librarian	: Should I issue this book to you? -> ISSUE_INFO_REQUEST
+student	: Yes sir. -> ACCEPT
+librarian	: Give your id card to me. -> ACTION_DIR
+student	: Ok sir, take my id card. -> COMMIT
+librarian	: I am giving the book. According to rules, you should return the book in 1 month or else you have to pay the fine. -> ISSUE_ASSERT
+student	: Ok sir, I will return the book. -> ACCEPT_ACKNOWLEDGE
+student	: thank you. -> GREETINGS_EOC
+
+22
+
+Indirect##
+
+issue
+------------------
+
+student	: hello sir. -> GREETINGS
+librarian	: hello. -> GREETINGS_REPLY
+student	: I came here for this book. -> ISSUE
+librarian	: Should I issue this book to you? -> ISSUE_INFO_REQUEST
+student	: Yes sir. -> ACCEPT
+librarian	: Give your id card to me. -> ACTION_DIR
+student	: Ok sir, take my id card. -> COMMIT
+librarian	: I am giving the book. According to rules, you should return the book in 1 month or else you have to pay the fine. -> ISSUE_ASSERT
+student	: Ok sir, I will return the book. -> ACCEPT_ACKNOWLEDGE
+student	: thank you. -> GREETINGS_EOC
+
+23
+
+Direct##
+
+issue
+------------------
+
+student	: How are you sir? -> GREETINGS
+librarian	: I am fine. thank you. -> GREETINGS_REPLY
+student	: If you have this book, please issue it. -> ISSUE
+librarian	: Give your id card to me. -> ACTION_DIR
+student	: Ok sir, take my id card. -> COMMIT
+librarian	: I am giving the book. According to rules, you should return the book in 1 month or else you have to pay the fine. -> ISSUE_ASSERT
+student	: Ok sir, I will return the book. -> ACCEPT_ACKNOWLEDGE
+student	: thank you. -> GREETINGS_EOC
+
+24
+
+student	: hello sir. -> GREETINGS
+librarian	: hello. -> GREETINGS_REPLY
+student	: Issue this book to me. -> ISSUE
+librarian	: Give your id card to me. -> ACTION_DIR
+student	: Ok sir, take my id card. -> COMMIT
+librarian	: I am giving the book. According to rules, you should return the book in 1 month or else you have to pay the fine. -> ISSUE_ASSERT
+student	: Ok sir, I will return the book. -> ACCEPT_ACKNOWLEDGE
+student	: thank you. -> GREETINGS_EOC
+
+25
+
+student	: How are you sir? -> GREETINGS
+librarian	: I am fine. thank you. -> GREETINGS_REPLY
+student	: Issue me this book. -> ISSUE
+librarian	: Give your id card to me. -> ACTION_DIR
+student	: Ok sir, take my id card. -> COMMIT
+librarian	: I am giving the book. According to rules, you should return the book in 1 month or else you have to pay the fine. -> ISSUE_ASSERT
+student	: Ok sir, I will return the book. -> ACCEPT_ACKNOWLEDGE
+student	: thank you. -> GREETINGS_EOC
+
+26
+
+student	: How are you sir? -> GREETINGS
+librarian	: I am fine. thank you. -> GREETINGS_REPLY
+student	: I came here to ask about this book. -> ISSUE
+librarian	: Should I issue this book to you? -> ISSUE_INFO_REQUEST
+student	: Yes sir. -> ACCEPT
+librarian	: Give your id card to me. -> ACTION_DIR
+student	: Ok sir, take my id card. -> COMMIT
+librarian	: I am giving the book. According to rules, you should return the book in 1 month or else you have to pay the fine. -> ISSUE_ASSERT
+student	: Ok sir, I will return the book. -> ACCEPT_ACKNOWLEDGE
+student	: thank you. -> GREETINGS_EOC
+
+27
+
+student	: How are you sir? -> GREETINGS
+librarian	: I am fine. thank you. It's been a long time since I saw you -> GREETINGS_REPLY
+student	: permit me to take this book -> ISSUE
+librarian	: Should I issue this book to you? -> ISSUE_INFO_REQUEST
+student	: Yes sir. -> ACCEPT
+librarian	: Give your id card to me. -> ACTION_DIR
+student	: Ok sir, take my id card. -> COMMIT
+librarian	: I am giving the book. According to rules, you should return the book in 1 month or else you have to pay the fine. -> ISSUE_ASSERT
+student	: Ok sir, I will return the book. -> ACCEPT_ACKNOWLEDGE
+student	: thank you. -> GREETINGS_EOC
+
+28
+
+student	: hello sir. -> GREETINGS
+librarian	: hello. -> GREETINGS_REPLY
+student	: I like this book.-> ISSUE
+librarian	: Should I issue this book to you? -> ISSUE_INFO_REQUEST
+student	: Yes sir. -> ACCEPT
+librarian	: Give your id card to me. -> ACTION_DIR
+student	: Ok sir, take my id card. -> COMMIT
+librarian	: I am giving the book. According to rules, you should return the book in 1 month or else you have to pay the fine. -> ISSUE_ASSERT
+student	: Ok sir, I will return the book. -> ACCEPT_ACKNOWLEDGE
+student	: thank you. -> GREETINGS_EOC
+
+29
+
+Direct##
+
+issue
+------------------
+
+student	: hello sir. -> GREETINGS
+librarian	: hello. -> GREETINGS_REPLY
+student	: I want this book.-> ISSUE
+librarian	: Give your id card to me. -> ACTION_DIR
+student	: Ok sir, take my id card. -> COMMIT
+librarian	: I am giving the book. According to rules, you should return the book in 1 month or else you have to pay the fine. -> ISSUE_ASSERT
+student	: Ok sir, I will return the book. -> ACCEPT_ACKNOWLEDGE
+student	: thank you. -> GREETINGS_EOC
+
+30
+
+Direct##
+
+
+issue
+------------------
+
+student	: hello sir. -> GREETINGS
+librarian	: hello. -> GREETINGS_REPLY
+student	: Give me this book.-> ISSUE
+librarian	: Give your id card to me. -> ACTION_DIR
+student	: Ok sir, take my id card. -> COMMIT
+librarian	: I am giving the book. According to rules, you should return the book in 1 month or else you have to pay the fine. -> ISSUE_ASSERT
+student	: Ok sir, I will return the book. -> ACCEPT_ACKNOWLEDGE
+student	: thank you. -> GREETINGS_EOC
+
+31
+
+Direct##
+
+issue
+------------------
+
+student	: How are you sir? -> GREETINGS
+librarian	: I am fine. thank you. -> GREETINGS_REPLY
+student	: I think that I should issue this book.-> ISSUE
+librarian	: Give your id card to me. -> ACTION_DIR
+student	: Ok sir, take my id card. -> COMMIT
+librarian	: I am giving the book. According to rules, you should return the book in 1 month or else you have to pay the fine. -> ISSUE_ASSERT
+student	: Ok sir, I will return the book. -> ACCEPT_ACKNOWLEDGE
+student	: thank you. -> GREETINGS_EOC
+
+32
+
+Direct##
+
+issue
+------------------
+
+student	: hello sir. -> GREETINGS
+librarian	: hello. -> GREETINGS_REPLY
+student	: I want this book.-> ISSUE
+librarian	: Give your id card to me. -> ACTION_DIR
+student	: Ok sir, take my id card. -> COMMIT
+librarian	: I am giving the book. According to rules, you should return the book in 1 month or else you have to pay the fine. -> ISSUE_ASSERT
+student	: Ok sir, I will return the book. -> ACCEPT_ACKNOWLEDGE
+student	: thank you. -> GREETINGS_EOC
+
+33
+
+Direct##
+
+issue
+------------------
+
+student	: How are you sir? -> GREETINGS
+librarian	: I am fine. thank you. -> GREETINGS_REPLY
+student	: I should take this book.-> ISSUE
+librarian	: Give your id card to me. -> ACTION_DIR
+student	: Ok sir, take my id card. -> COMMIT
+librarian	: I am giving the book. According to rules, you should return the book in 1 month or else you have to pay the fine. -> ISSUE_ASSERT
+student	: Ok sir, I will return the book. -> ACCEPT_ACKNOWLEDGE
+student	: thank you. -> GREETINGS_EOC
+
+34
+
+Direct##
+
+issue
+------------------
+
+student	: How are you sir? -> GREETINGS
+librarian	: I am fine. thank you. It's been a long time since I saw you -> GREETINGS_REPLY
+student	: Hand over this book to me.-> ISSUE
+librarian	: Give your id card to me. -> ACTION_DIR
+student	: Ok sir, take my id card. -> COMMIT
+librarian	: I am giving the book. According to rules, you should return the book in 1 month or else you have to pay the fine. -> ISSUE_ASSERT
+student	: Ok sir, I will return the book. -> ACCEPT_ACKNOWLEDGE
+student	: thank you. -> GREETINGS_EOC
+
+35
+
+Direct##
+
+issue
+------------------
+
+student	: hello sir. -> GREETINGS
+librarian	: hello. -> GREETINGS_REPLY
+student	: Give me this book. -> ISSUE
+librarian	: Give your id card to me. -> ACTION_DIR
+student	: Ok sir, take my id card. -> COMMIT
+librarian	: I am giving the book. According to rules, you should return the book in 1 month or else you have to pay the fine. -> ISSUE_ASSERT
+student	: Ok sir, I will return the book. -> ACCEPT_ACKNOWLEDGE
+student	: thank you. -> GREETINGS_EOC
+
+36
+
+Direct##
+
+issue
+------------------
+
+student	: How are you sir? -> GREETINGS
+librarian	: I am fine. thank you. -> GREETINGS_REPLY
+student	: Would you give this book to me? -> ISSUE
+librarian	: Give your id card to me. -> ACTION_DIR
+student	: Ok sir, take my id card. -> COMMIT
+librarian	: I am giving the book. According to rules, you should return the book in 1 month or else you have to pay the fine. -> ISSUE_ASSERT
+student	: Ok sir, I will return the book. -> ACCEPT_ACKNOWLEDGE
+student	: thank you. -> GREETINGS_EOC
+
+37
+
+Direct##
+
+issue
+------------------
+
+student	: hello sir. -> GREETINGS
+librarian	: hello. -> GREETINGS_REPLY
+student	: I came here to issue this book -> ISSUE
+librarian	: Give your id card to me. -> ACTION_DIR
+student	: Ok sir, take my id card. -> COMMIT
+librarian	: I am giving the book. According to rules, you should return the book in 1 month or else you have to pay the fine. -> ISSUE_ASSERT
+student	: Ok sir, I will return the book. -> ACCEPT_ACKNOWLEDGE
+student	: thank you. -> GREETINGS_EOC
+
+38
+
+Direct##
+
+issue
+------------------
+
+student	: How are you sir? -> GREETINGS
+librarian	: I am fine. thank you. -> GREETINGS_REPLY
+student	: Shall I take this book? -> ISSUE
+librarian	: Give your id card to me. -> ACTION_DIR
+student	: Ok sir, take my id card. -> COMMIT
+librarian	: I am giving the book. According to rules, you should return the book in 1 month or else you have to pay the fine. -> ISSUE_ASSERT
+student	: Ok sir, I will return the book. -> ACCEPT_ACKNOWLEDGE
+student	: thank you. -> GREETINGS_EOC
+
+39
+
+Direct##
+
+issue
+------------------
+
+student	: How are you sir? -> GREETINGS
+librarian	: I am fine. thank you. -> GREETINGS_REPLY
+student	: I am interested in reading this book. -> ISSUE
+librarian	: Give your id card to me. -> ACTION_DIR
+student	: Ok sir, take my id card. -> COMMIT
+librarian	: I am giving the book. According to rules, you should return the book in 1 month or else you have to pay the fine. -> ISSUE_ASSERT
+student	: Ok sir, I will return the book. -> ACCEPT_ACKNOWLEDGE
+student	: thank you. -> GREETINGS_EOC
+
+40
+
+Direct##
+
+issue
+------------------
+
+student	: How are you sir? -> GREETINGS
+librarian	: I am fine. thank you. It's been a long time since I saw you -> GREETINGS_REPLY
+student	: I am interested to take this book. -> ISSUE
+librarian	: Give your id card to me. -> ACTION_DIR
+student	: Ok sir, take my id card. -> COMMIT
+librarian	: I am giving the book. According to rules, you should return the book in 1 month or else you have to pay the fine. -> ISSUE_ASSERT
+student	: Ok sir, I will return the book. -> ACCEPT_ACKNOWLEDGE
+student	: thank you. -> GREETINGS_EOC
+
+41
+
+Indirect##
+
+issue
+------------------
+
+student	: How are you sir? -> GREETINGS
+librarian	: I am fine. thank you. It's been a long time since I saw you -> GREETINGS_REPLY
+student	: Issue this book. -> ISSUE
+librarian	: Should I issue this book to you? -> ISSUE_INFO_REQUEST
+student	: Yes sir. -> ACCEPT
+librarian	: Give your id card to me. -> ACTION_DIR
+student	: Ok sir, take my id card. -> COMMIT
+librarian	: I am giving the book. According to rules, you should return the book in 1 month or else you have to pay the fine. -> ISSUE_ASSERT
+student	: Ok sir, I will return the book. -> ACCEPT_ACKNOWLEDGE
+student	: thank you. -> GREETINGS_EOC
+
+42
+
+Indirect##
+
+issue
+------------------
+
+student	: hello sir. -> GREETINGS
+librarian	: hello. -> GREETINGS_REPLY
+student	: I will take this book. -> ISSUE
+librarian	: Should I issue this book to you? -> ISSUE_INFO_REQUEST
+student	: Yes sir. -> ACCEPT
+librarian	: Give your id card to me. -> ACTION_DIR
+student	: Ok sir, take my id card. -> COMMIT
+librarian	: I am giving the book. According to rules, you should return the book in 1 month or else you have to pay the fine. -> ISSUE_ASSERT
+student	: Ok sir, I will return the book. -> ACCEPT_ACKNOWLEDGE
+student	: thank you. -> GREETINGS_EOC
+
+43
+
+Indirect##
+
+issue
+------------------
+
+student	: How are you sir? -> GREETINGS
+librarian	: I am fine. thank you. -> GREETINGS_REPLY
+student	: My main purpose is to issue this book. -> ISSUE
+librarian	: Should I issue this book to you? -> ISSUE_INFO_REQUEST
+student	: Yes sir. -> ACCEPT
+librarian	: Give your id card to me. -> ACTION_DIR
+student	: Ok sir, take my id card. -> COMMIT
+librarian	: I am giving the book. According to rules, you should return the book in 1 month or else you have to pay the fine. -> ISSUE_ASSERT
+student	: Ok sir, I will return the book. -> ACCEPT_ACKNOWLEDGE
+student	: thank you. -> GREETINGS_EOC
+
+44
+
+Indirect##
+
+issue
+------------------
+
+student	: How are you sir? -> GREETINGS
+librarian	: I am fine. thank you. It's been a long time since I saw you -> GREETINGS_REPLY
+student	: I think that I should read this book. -> ISSUE
+librarian	: Should I issue this book to you? -> ISSUE_INFO_REQUEST
+student	: Yes sir. -> ACCEPT
+librarian	: Give your id card to me. -> ACTION_DIR
+student	: Ok sir, take my id card. -> COMMIT
+librarian	: I am giving the book. According to rules, you should return the book in 1 month or else you have to pay the fine. -> ISSUE_ASSERT
+student	: Ok sir, I will return the book. -> ACCEPT_ACKNOWLEDGE
+student	: thank you. -> GREETINGS_EOC
+
+45
+
+Indirect##
+
+issue
+------------------
+
+student	: hello sir. -> GREETINGS
+librarian	: hello. -> GREETINGS_REPLY
+student	: I must read this book. -> ISSUE
+librarian	: Should I issue this book to you? -> ISSUE_INFO_REQUEST
+student	: Yes sir. -> ACCEPT
+librarian	: Give your id card to me. -> ACTION_DIR
+student	: Ok sir, take my id card. -> COMMIT
+librarian	: I am giving the book. According to rules, you should return the book in 1 month or else you have to pay the fine. -> ISSUE_ASSERT
+student	: Ok sir, I will return the book. -> ACCEPT_ACKNOWLEDGE
+student	: thank you. -> GREETINGS_EOC
+
+46
+
+Indirect##
+
+issue
+------------------
+
+student	: How are you sir? -> GREETINGS
+librarian	: I am fine. thank you. -> GREETINGS_REPLY
+student	: I must take this book. -> ISSUE
+librarian	: Should I issue this book to you? -> ISSUE_INFO_REQUEST
+student	: Yes sir. -> ACCEPT
+librarian	: Give your id card to me. -> ACTION_DIR
+student	: Ok sir, take my id card. -> COMMIT
+librarian	: I am giving the book. According to rules, you should return the book in 1 month or else you have to pay the fine. -> ISSUE_ASSERT
+student	: Ok sir, I will return the book. -> ACCEPT_ACKNOWLEDGE
+student	: thank you. -> GREETINGS_EOC
+
+47
+
+Indirect##
+
+issue
+------------------
+
+student	: How are you sir? -> GREETINGS
+librarian	: I am fine. thank you. -> GREETINGS_REPLY
+student	: Can I take this book? -> ISSUE
+librarian	: Should I issue this book to you? -> ISSUE_INFO_REQUEST
+student	: Yes sir. -> ACCEPT
+librarian	: Give your id card to me. -> ACTION_DIR
+student	: Ok sir, take my id card. -> COMMIT
+librarian	: I am giving the book. According to rules, you should return the book in 1 month or else you have to pay the fine. -> ISSUE_ASSERT
+student	: Ok sir, I will return the book. -> ACCEPT_ACKNOWLEDGE
+student	: thank you. -> GREETINGS_EOC
+
+48
+
+Indirect##
+
+issue
+------------------
+
+student	: How are you sir? -> GREETINGS
+librarian	: I am fine. thank you. It's been a long time since I saw you -> GREETINGS_REPLY
+student	: I should read this book by tomorrow. -> ISSUE
+librarian	: Should I issue this book to you? -> ISSUE_INFO_REQUEST
+student	: Yes sir. -> ACCEPT
+librarian	: Give your id card to me. -> ACTION_DIR
+student	: Ok sir, take my id card. -> COMMIT
+librarian	: I am giving the book. According to rules, you should return the book in 1 month or else you have to pay the fine. -> ISSUE_ASSERT
+student	: Ok sir, I will return the book. -> ACCEPT_ACKNOWLEDGE
+student	: thank you. -> GREETINGS_EOC
+
+49
+
+Indirect##
+
+issue
+------------------
+
+student	: hello sir. -> GREETINGS
+librarian	: hello. -> GREETINGS_REPLY
+student	: You said that you will issue this book to me. -> ISSUE
+librarian	: Should I issue this book to you? -> ISSUE_INFO_REQUEST
+student	: Yes sir. -> ACCEPT
+librarian	: Give your id card to me. -> ACTION_DIR
+student	: Ok sir, take my id card. -> COMMIT
+librarian	: I am giving the book. According to rules, you should return the book in 1 month or else you have to pay the fine. -> ISSUE_ASSERT
+student	: Ok sir, I will return the book. -> ACCEPT_ACKNOWLEDGE
+student	: thank you. -> GREETINGS_EOC
+
+50
+
+Indirect##
+
+issue
+------------------
+
+student	: hello sir. -> GREETINGS
+librarian	: hello. -> GREETINGS_REPLY
+student	: You told that you will give this book to me. -> ISSUE
+librarian	: Should I issue this book to you? -> ISSUE_INFO_REQUEST
+student	: Yes sir. -> ACCEPT
+librarian	: Give your id card to me. -> ACTION_DIR
+student	: Ok sir, take my id card. -> COMMIT
+librarian	: I am giving the book. According to rules, you should return the book in 1 month or else you have to pay the fine. -> ISSUE_ASSERT
+student	: Ok sir, I will return the book. -> ACCEPT_ACKNOWLEDGE
+student	: thank you. -> GREETINGS_EOC
+
+51
+
+Direct##
+
+issue
+------------------
+
+student	: How are you sir? -> GREETINGS
+librarian	: I am fine. thank you. -> GREETINGS_REPLY
+student	: you told that you will issue this book to me. -> ISSUE
+librarian	: Give your id card to me. -> ACTION_DIR
+student	: Ok sir, take my id card. -> COMMIT
+librarian	: I am giving the book. According to rules, you should return the book in 1 month or else you have to pay the fine. -> ISSUE_ASSERT
+student	: Ok sir, I will return the book. -> ACCEPT_ACKNOWLEDGE
+student	: thank you. -> GREETINGS_EOC
+
+52
+
+student	: hello sir. -> GREETINGS
+librarian	: hello. -> GREETINGS_REPLY
+student	: My lecturer told me to follow this book. -> ISSUE
+librarian	: Give your id card to me. -> ACTION_DIR
+student	: Ok sir, take my id card. -> COMMIT
+librarian	: I am giving the book. According to rules, you should return the book in 1 month or else you have to pay the fine. -> ISSUE_ASSERT
+student	: Ok sir, I will return the book. -> ACCEPT_ACKNOWLEDGE
+student	: thank you. -> GREETINGS_EOC
+
+53
+
+student	: How are you sir? -> GREETINGS
+librarian	: I am fine. thank you. -> GREETINGS_REPLY
+student	: I can read this book only if you give it to me. -> ISSUE
+librarian	: Give your id card to me. -> ACTION_DIR
+student	: Ok sir, take my id card. -> COMMIT
+librarian	: I am giving the book. According to rules, you should return the book in 1 month or else you have to pay the fine. -> ISSUE_ASSERT
+student	: Ok sir, I will return the book. -> ACCEPT_ACKNOWLEDGE
+student	: thank you. -> GREETINGS_EOC
+
+54
+
+student	: How are you sir? -> GREETINGS
+librarian	: I am fine. thank you. -> GREETINGS_REPLY
+student	: I am in urgent need of this book. -> ISSUE
+librarian	: Should I issue this book to you? -> ISSUE_INFO_REQUEST
+student	: Yes sir. -> ACCEPT
+librarian	: Give your id card to me. -> ACTION_DIR
+student	: Ok sir, take my id card. -> COMMIT
+librarian	: I am giving the book. According to rules, you should return the book in 1 month or else you have to pay the fine. -> ISSUE_ASSERT
+student	: Ok sir, I will return the book. -> ACCEPT_ACKNOWLEDGE
+student	: thank you. -> GREETINGS_EOC
+
+55
+
+student	: How are you sir? -> GREETINGS
+librarian	: I am fine. thank you. It's been a long time since I saw you -> GREETINGS_REPLY
+student	: You said that, you do not have any objection to giving me this book. -> ISSUE
+librarian	: Should I issue this book to you? -> ISSUE_INFO_REQUEST
+student	: Yes sir. -> ACCEPT
+librarian	: Give your id card to me. -> ACTION_DIR
+student	: Ok sir, take my id card. -> COMMIT
+librarian	: I am giving the book. According to rules, you should return the book in 1 month or else you have to pay the fine. -> ISSUE_ASSERT
+student	: Ok sir, I will return the book. -> ACCEPT_ACKNOWLEDGE
+student	: thank you. -> GREETINGS_EOC
+
+56
+
+student	: hello sir. -> GREETINGS
+librarian	: hello. -> GREETINGS_REPLY
+student	: You said that, you do not have any objection to giving me this book. -> ISSUE
+librarian	: Should I issue this book to you? -> ISSUE_INFO_REQUEST
+student	: Yes sir. -> ACCEPT
+librarian	: Give your id card to me. -> ACTION_DIR
+student	: Ok sir, take my id card. -> COMMIT
+librarian	: I am giving the book. According to rules, you should return the book in 1 month or else you have to pay the fine. -> ISSUE_ASSERT
+student	: Ok sir, I will return the book. -> ACCEPT_ACKNOWLEDGE
+student	: thank you. -> GREETINGS_EOC
+
+
+57
+
+Indirect##
+
+issue
+------------------
+
+student	: hello sir. -> GREETINGS
+librarian	: hello. -> GREETINGS_REPLY
+student	: I am in need of this book. -> ISSUE
+librarian	: Should I issue this book to you? -> ISSUE_INFO_REQUEST
+student	: Yes sir. -> ACCEPT
+librarian	: Give your id card to me. -> ACTION_DIR
+student	: Ok sir, take my id card. -> COMMIT
+librarian	: I am giving the book. According to rules, you should return the book in 1 month or else you have to pay the fine. -> ISSUE_ASSERT
+student	: Ok sir, I will return the book. -> ACCEPT_ACKNOWLEDGE
+student	: thank you. -> GREETINGS_EOC
+
+58
+
+Indirect##
+
+issue
+------------------
+
+student	: How are you sir? -> GREETINGS
+librarian	: I am fine. thank you. -> GREETINGS_REPLY
+student	: Tomorrow's essay should be written from this book only. -> ISSUE
+librarian	: Should I issue this book to you? -> ISSUE_INFO_REQUEST
+student	: Yes sir. -> ACCEPT
+librarian	: Give your id card to me. -> ACTION_DIR
+student	: Ok sir, take my id card. -> COMMIT
+librarian	: I am giving the book. According to rules, you should return the book in 1 month or else you have to pay the fine. -> ISSUE_ASSERT
+student	: Ok sir, I will return the book. -> ACCEPT_ACKNOWLEDGE
+student	: thank you. -> GREETINGS_EOC
+
+59
+
+Indirect##
+
+issue
+------------------
+
+student	: How are you sir? -> GREETINGS
+librarian	: I am fine. thank you. -> GREETINGS_REPLY
+student	: They said that, tomorrow's essay should be written from this book. -> ISSUE
+librarian	: Should I issue this book to you? -> ISSUE_INFO_REQUEST
+student	: Yes sir. -> ACCEPT
+librarian	: Give your id card to me. -> ACTION_DIR
+student	: Ok sir, take my id card. -> COMMIT
+librarian	: I am giving the book. According to rules, you should return the book in 1 month or else you have to pay the fine. -> ISSUE_ASSERT
+student	: Ok sir, I will return the book. -> ACCEPT_ACKNOWLEDGE
+student	: thank you. -> GREETINGS_EOC
+
+60
+
+Indirect##
+
+issue
+------------------
+
+student	: How are you sir? -> GREETINGS
+librarian	: I am fine. thank you. It's been a long time since I saw you -> GREETINGS_REPLY
+student	: The questions will be asked from this book only. -> ISSUE
+librarian	: Should I issue this book to you? -> ISSUE_INFO_REQUEST
+student	: Yes sir. -> ACCEPT
+librarian	: Give your id card to me. -> ACTION_DIR
+student	: Ok sir, take my id card. -> COMMIT
+librarian	: I am giving the book. According to rules, you should return the book in 1 month or else you have to pay the fine. -> ISSUE_ASSERT
+student	: Ok sir, I will return the book. -> ACCEPT_ACKNOWLEDGE
+student	: thank you. -> GREETINGS_EOC
+
+61
+
+Indirect##
+
+issue
+------------------
+
+student	: hello sir. -> GREETINGS
+librarian	: hello. -> GREETINGS_REPLY
+student	: If i read this book, then i can write tomorrow's exam. -> ISSUE
+librarian	: Should I issue this book to you? -> ISSUE_INFO_REQUEST
+student	: Yes sir. -> ACCEPT
+librarian	: Give your id card to me. -> ACTION_DIR
+student	: Ok sir, take my id card. -> COMMIT
+librarian	: I am giving the book. According to rules, you should return the book in 1 month or else you have to pay the fine. -> ISSUE_ASSERT
+student	: Ok sir, I will return the book. -> ACCEPT_ACKNOWLEDGE
+student	: thank you. -> GREETINGS_EOC
+
+62
+
+Indirect##
+
+issue
+------------------
+
+student	: hello sir. -> GREETINGS
+librarian	: hello. -> GREETINGS_REPLY
+student	: Give me this book, only if i didn't exceed the book limit. -> ISSUE
+librarian	: Should I issue this book to you? -> ISSUE_INFO_REQUEST
+student	: Yes sir. -> ACCEPT
+librarian	: Give your id card to me. -> ACTION_DIR
+student	: Ok sir, take my id card. -> COMMIT
+librarian	: I am giving the book. According to rules, you should return the book in 1 month or else you have to pay the fine. -> ISSUE_ASSERT
+student	: Ok sir, I will return the book. -> ACCEPT_ACKNOWLEDGE
+student	: thank you. -> GREETINGS_EOC
+
+63
+
+Direct##
+
+issue
+------------------
+
+student	: How are you sir? -> GREETINGS
+librarian	: I am fine. thank you. -> GREETINGS_REPLY
+student	: If my account is free, then I can take this book. -> ISSUE
+librarian	: Give your id card to me. -> ACTION_DIR
+student	: Ok sir, take my id card. -> COMMIT
+librarian	: I am giving the book. According to rules, you should return the book in 1 month or else you have to pay the fine. -> ISSUE_ASSERT
+student	: Ok sir, I will return the book. -> ACCEPT_ACKNOWLEDGE
+student	: thank you. -> GREETINGS_EOC
+
+64
+
+student	: hello sir. -> GREETINGS
+librarian	: hello. -> GREETINGS_REPLY
+student	: Will you give me this book now? -> ISSUE
+librarian	: Give your id card to me. -> ACTION_DIR
+student	: Ok sir, take my id card. -> COMMIT
+librarian	: I am giving the book. According to rules, you should return the book in 1 month or else you have to pay the fine. -> ISSUE_ASSERT
+student	: Ok sir, I will return the book. -> ACCEPT_ACKNOWLEDGE
+student	: thank you. -> GREETINGS_EOC
+
+65
+
+student	: How are you sir? -> GREETINGS
+librarian	: I am fine. thank you. -> GREETINGS_REPLY
+student	: Tomorrow's exam questions will be coming from the topics of this book only. -> ISSUE
+librarian	: Give your id card to me. -> ACTION_DIR
+student	: Ok sir, take my id card. -> COMMIT
+librarian	: I am giving the book. According to rules, you should return the book in 1 month or else you have to pay the fine. -> ISSUE_ASSERT
+student	: Ok sir, I will return the book. -> ACCEPT_ACKNOWLEDGE
+student	: thank you. -> GREETINGS_EOC
+
+66
+
+student	: How are you sir? -> GREETINGS
+librarian	: I am fine. thank you. -> GREETINGS_REPLY
+student	: Issue this book to me. -> ISSUE
+librarian	: Should I issue this book to you? -> ISSUE_INFO_REQUEST
+student	: Yes sir. -> ACCEPT
+librarian	: Give your id card to me. -> ACTION_DIR
+student	: Ok sir, take my id card. -> COMMIT
+librarian	: I am giving the book. According to rules, you should return the book in 1 month or else you have to pay the fine. -> ISSUE_ASSERT
+student	: Ok sir, I will return the book. -> ACCEPT_ACKNOWLEDGE
+student	: thank you. -> GREETINGS_EOC
+
+67
+
+student	: How are you sir? -> GREETINGS
+librarian	: I am fine. thank you. It's been a long time since I saw you -> GREETINGS_REPLY
+student	: I should take this book. -> ISSUE
+librarian	: Should I issue this book to you? -> ISSUE_INFO_REQUEST
+student	: Yes sir. -> ACCEPT
+librarian	: Give your id card to me. -> ACTION_DIR
+student	: Ok sir, take my id card. -> COMMIT
+librarian	: I am giving the book. According to rules, you should return the book in 1 month or else you have to pay the fine. -> ISSUE_ASSERT
+student	: Ok sir, I will return the book. -> ACCEPT_ACKNOWLEDGE
+student	: thank you. -> GREETINGS_EOC
+
+68
+
+student	: hello sir. -> GREETINGS
+librarian	: hello. -> GREETINGS_REPLY
+student	: Will you give me this book? -> ISSUE
+librarian	: Should I issue this book to you? -> ISSUE_INFO_REQUEST
+student	: Yes sir. -> ACCEPT
+librarian	: Give your id card to me. -> ACTION_DIR
+student	: Ok sir, take my id card. -> COMMIT
+librarian	: I am giving the book. According to rules, you should return the book in 1 month or else you have to pay the fine. -> ISSUE_ASSERT
+student	: Ok sir, I will return the book. -> ACCEPT_ACKNOWLEDGE
+student	: thank you. -> GREETINGS_EOC
+
+69
+
+student	: hello sir. -> GREETINGS
+librarian	: hello. -> GREETINGS_REPLY
+student	: My main purpose of coming here is to issue to this book. -> ISSUE
+librarian	: Give your id card to me. -> ACTION_DIR
+student	: Ok sir, take my id card. -> COMMIT
+librarian	: I am giving the book. According to rules, you should return the book in 1 month or else you have to pay the fine. -> ISSUE_ASSERT
+student	: Ok sir, I will return the book. -> ACCEPT_ACKNOWLEDGE
+student	: thank you. -> GREETINGS_EOC
+
+70
+
+student	: How are you sir? -> GREETINGS
+librarian	: I am fine. thank you. -> GREETINGS_REPLY
+student	: This book is very important to me. -> ISSUE
+librarian	: Give your id card to me. -> ACTION_DIR
+student	: Ok sir, take my id card. -> COMMIT
+librarian	: I am giving the book. According to rules, you should return the book in 1 month or else you have to pay the fine. -> ISSUE_ASSERT
+student	: Ok sir, I will return the book. -> ACCEPT_ACKNOWLEDGE
+student	: thank you. -> GREETINGS_EOC
+
+71
+
+student	: How are you sir? -> GREETINGS
+librarian	: I am fine. thank you. -> GREETINGS_REPLY
+student	: I must take this book. -> ISSUE
+librarian	: Should I issue this book to you? -> ISSUE_INFO_REQUEST
+student	: Yes sir. -> ACCEPT
+librarian	: Give your id card to me. -> ACTION_DIR
+student	: Ok sir, take my id card. -> COMMIT
+librarian	: I am giving the book. According to rules, you should return the book in 1 month or else you have to pay the fine. -> ISSUE_ASSERT
+student	: Ok sir, I will return the book. -> ACCEPT_ACKNOWLEDGE
+student	: thank you. -> GREETINGS_EOC
+
+72
+
+student	: How are you sir? -> GREETINGS
+librarian	: I am fine. thank you. It's been a long time since I saw you -> GREETINGS_REPLY
+student	: I should take this book. -> ISSUE
+librarian	: Should I issue this book to you? -> ISSUE_INFO_REQUEST
+student	: Yes sir. -> ACCEPT
+librarian	: Give your id card to me. -> ACTION_DIR
+student	: Ok sir, take my id card. -> COMMIT
+librarian	: I am giving the book. According to rules, you should return the book in 1 month or else you have to pay the fine. -> ISSUE_ASSERT
+student	: Ok sir, I will return the book. -> ACCEPT_ACKNOWLEDGE
+student	: thank you. -> GREETINGS_EOC
+
+73
+
+student	: hello sir. -> GREETINGS
+librarian	: hello. -> GREETINGS_REPLY
+student	: Give this book. -> ISSUE
+librarian	: Should I issue this book to you? -> ISSUE_INFO_REQUEST
+student	: Yes sir. -> ACCEPT
+librarian	: Give your id card to me. -> ACTION_DIR
+student	: Ok sir, take my id card. -> COMMIT
+librarian	: I am giving the book. According to rules, you should return the book in 1 month or else you have to pay the fine. -> ISSUE_ASSERT
+student	: Ok sir, I will return the book. -> ACCEPT_ACKNOWLEDGE
+student	: thank you. -> GREETINGS_EOC
+

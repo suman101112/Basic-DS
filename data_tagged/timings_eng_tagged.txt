@@ -1,0 +1,152 @@
+time dialogs
+
+1
+
+Indirect##
+
+issue
+------------------
+
+student	: Hello sir. -> GREETINGS
+Librarian	: Hello. -> GREETINGS_REPLY
+student	: I want to issue a book. -> ISSUE
+Librarian	: Now the time is 6.30 pm -> TIME_ASSERT
+student	: Ok sir. I will come tomorrow. -> COMMIT
+Librarian	: The library timings are from 9 am to 6 pm. -> TIME_ASSERT
+student	: Thank you. -> GREETINGS_EOC
+
+2
+
+Indirect##
+
+return
+------------------
+
+student	: How are you sir? -> GREETINGS
+Librarian	: Fine. -> GREETINGS_REPLY
+student	: I came to return this book. -> RETURN
+Librarian	: Now the time is 6.30 pm -> TIME_ASSERT
+student	: Ok sir. I will come tomorrow. -> COMMIT
+Librarian	: The library timings are from 9 am to 6 pm. -> TIME_ASSERT
+student	: Thank you. -> GREETINGS_EOC
+
+3
+
+Indirect##
+
+issue
+------------------
+
+student	: How are you sir? -> GREETINGS
+Librarian	: Fine. -> GREETINGS_REPLY
+student	: I want to issue a book. -> TIME_ASSERT
+Librarian	: Library will be open from 9 am till 6 pm -> TIME_ASSERT
+student	: Ok sir. I will come tomorrow. -> COMMIT
+Librarian	: Come soon tomorrow. -> TIME_ASSERT
+student	: Thank you. -> GREETINGS_EOC
+
+4
+
+Indirect##
+
+return
+------------------
+
+student	: Hello sir. -> GREETINGS
+Librarian	: Hello. -> GREETINGS_REPLY
+student	: I came to return this book. -> RETURN
+Librarian	: Library will be open from 9 am till 6 pm -> TIME_ASSERT
+student	: Ok sir. I will come tomorrow. -> COMMIT
+Librarian	: Come soon tomorrow. -> TIME_ASSERT
+student	: Thank you. -> GREETINGS_EOC
+
+5
+
+Indirect##
+
+reissue
+
+------------------
+
+student	: How are you sir? -> GREETINGS
+Librarian	: Fine. -> GREETINGS_REPLY
+student	: I came here to extend the book's due date. -> REISSUE
+Librarian	: Today is Holiday. -> TIME_ASSERT
+student	: Ok sir. I will come tomorrow. -> COMMIT
+Librarian	: Library will be open from 9 am till 6 pm -> TIME_ASSERT
+student	: Thank you. -> GREETINGS_EOC
+
+6
+
+Indirect##
+
+enquiry
+
+------------------
+
+student	: Hello sir. -> GREETINGS
+Librarian	: Hello. -> GREETINGS_REPLY
+student	: What are the timings of library? -> INFO_REQUEST
+Librarian	: Library will be open from 9 am till 6 pm -> TIME_ASSERT
+student	: Thank you. -> GREETINGS_EOC
+
+7
+
+Indirect##
+
+issue
+------------------
+
+student	: Hello sir. -> GREETINGS
+Librarian	: Hello. -> GREETINGS_REPLY
+student	: I want to issue a book. -> ISSUE
+Librarian	: The time is completed. -> TIME_ASSERT
+student	: Ok sir. I will come tomorrow. -> COMMIT
+Librarian	: The library timings are from 9 am to 6 pm. -> TIME_ASSERT
+student	: Thank you. -> GREETINGS_EOC
+
+8
+
+Indirect##
+
+return
+------------------
+
+student	: How are you sir? -> GREETINGS
+Librarian	: Fine. -> GREETINGS_REPLY
+student	: I came to return this book. -> RETURN
+Librarian	: The time is completed. -> TIME_ASSERT
+student	: Ok sir. I will come tomorrow. -> COMMIT
+Librarian	: The library timings are from 9 am to 6 pm. -> TIME_ASSERT
+student	: Thank you. -> GREETINGS_EOC
+
+9
+
+Indirect##
+
+issue
+------------------
+
+student	: How are you sir? -> GREETINGS
+Librarian	: Fine. -> GREETINGS_REPLY
+student	: I want to issue a book. -> ISSUE
+Librarian	: The time is completed. -> TIME_ASSERT
+student	: Ok sir. I will come tomorrow. -> COMMIT
+Librarian	: Come soon tomorrow. -> TIME_ASSERT
+student	: Thank you. -> GREETINGS_EOC
+
+10
+
+Indirect##
+
+return
+------------------
+
+student	: Hello sir. -> GREETINGS
+Librarian	: Hello. -> GREETINGS_REPLY
+student	: I came to return this book. -> RETURN
+Librarian	: The time is completed. -> TIME_ASSERT
+student	: Ok sir. I will come tomorrow. -> COMMIT
+Librarian	: Come soon tomorrow. -> TIME_ASSERT
+student	: Thank you. -> GREETINGS_EOC
+

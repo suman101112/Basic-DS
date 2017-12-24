@@ -1,0 +1,1007 @@
+1
+
+Direct##
+
+return
+------------------
+
+Student	: Hello Sir. -> GREETINGS
+Librarian	: Hello. -> GREETINGS_REPLY
+Student	: I would like to return this book. -> RETURN
+Librarian	: Give me your id card and the book you want to return. -> ACTION_DIR
+Student	: Ok sir. Take this book and my id card. -> COMMIT
+Librarian	: I am removing this book from your account. -> RETURN_ASSERT
+Student	: Thank you. -> GREETINGS_EOC
+
+2
+
+Indirect##
+
+return
+------------------
+
+Student	: Hello Sir. -> GREETINGS
+Librarian	: Hello. -> GREETINGS_REPLY
+Student	: I have read this book before. -> RETURN
+Librarian	: Are you returning this book. -> RETURN_INFO_REQUEST
+Student	: Yes sir. -> ACCEPT
+Librarian	: Give me your id card and the book you want to return. -> ACTION_DIR
+Student	: Ok sir. Take this book and my id card. -> COMMIT
+Librarian	: I am removing this book from your account. -> RETURN_ASSERT
+Student	: Thank you. -> GREETINGS_EOC
+
+3
+
+Indirect##
+
+return
+------------------
+
+Student	: How are you sir? -> GREETINGS
+Librarian	: I am fine. -> GREETINGS_REPLY
+Student	: I didn't like this book. -> RETURN
+Librarian	: Are you returning this book. -> RETURN_INFO_REQUEST
+Student	: Yes sir. -> ACCEPT
+Librarian	: Give me your id card and the book you want to return. -> ACTION_DIR
+Student	: Ok sir. Take this book and my id card. -> COMMIT
+Librarian	: I am removing this book from your account. -> RETURN_ASSERT
+Student	: Thank you. -> GREETINGS_EOC
+
+4
+
+Direct##
+
+return
+------------------
+
+Student	: Hello Sir. -> GREETINGS
+Librarian	: Hello. -> GREETINGS_REPLY
+Student	: I am returning this book. -> RETURN
+Librarian	: Give me your id card and the book you want to return. -> ACTION_DIR
+Student	: Ok sir. Take this book and my id card. -> COMMIT
+Librarian	: I am removing this book from your account. -> RETURN_ASSERT
+Student	: Thank you. -> GREETINGS_EOC
+
+5
+
+Indirect##
+
+return
+------------------
+
+Student	: How are you sir? -> GREETINGS
+Librarian	: I am fine. -> GREETINGS_REPLY
+Student	: This book is not useful to me. -> RETURN
+Librarian	: Are you returning this book. -> RETURN_INFO_REQUEST
+Student	: Yes sir. -> ACCEPT
+Librarian	: Give me your id card and the book you want to return. -> ACTION_DIR
+Student	: Ok sir. Take this book and my id card. -> COMMIT
+Librarian	: I am removing this book from your account. -> RETURN_ASSERT
+Student	: Thank you. -> GREETINGS_EOC
+
+6
+
+Indirect##
+
+return
+------------------
+
+Student	: How are you sir? -> GREETINGS
+Librarian	: I am fine. -> GREETINGS_REPLY 
+Student	: This book is very dull to read. -> RETURN
+Librarian	: Are you returning this book. -> RETURN_INFO_REQUEST
+Student	: Yes sir. -> ACCEPT
+Librarian	: Give me your id card and the book you want to return. -> ACTION_DIR
+Student	: Ok sir. Take this book and my id card. -> COMMIT
+Librarian	: I am removing this book from your account. -> RETURN_ASSERT
+Student	: Thank you. -> GREETINGS_EOC
+
+7
+
+InDirect##
+
+return
+------------------
+
+Student	: Hello Sir. -> GREETINGS
+Librarian	: Hello. -> GREETINGS_REPLY
+Student	: This book doesn't contain any topic that is useful to me. -> RETURN
+Librarian	: Are you returning this book. -> RETURN_INFO_REQUEST
+Student	: Yes sir. -> ACCEPT
+Librarian	: Give me your id card and the book you want to return. -> ACTION_DIR
+Student	: Ok sir. Take this book and my id card. -> COMMIT
+Librarian	: I am removing this book from your account. -> RETURN_ASSERT
+Student	: Thank you. -> GREETINGS_EOC
+
+8
+
+Direct##
+
+return
+------------------
+
+Student	: How are you sir? -> GREETINGS
+Librarian	: I am fine. -> GREETINGS_REPLY
+Student	: I came here only to return this book -> RETURN
+Librarian	: Give me your id card and the book you want to return. -> ACTION_DIR
+Student	: Ok sir. Take this book and my id card. -> COMMIT
+Librarian	: I am removing this book from your account. -> RETURN_ASSERT
+Student	: Thank you. -> GREETINGS_EOC
+
+9
+
+InDirect##
+
+return
+------------------
+
+Student	: Hello Sir. -> GREETINGS
+Librarian	: Hello. -> GREETINGS_REPLY
+Student	: This book belongs to a different topic -> RETURN
+Librarian	: Are you returning this book. -> RETURN_INFO_REQUEST
+Student	: Yes sir. -> ACCEPT
+Librarian	: Give me your id card and the book you want to return. -> ACTION_DIR
+Student	: Ok sir. Take this book and my id card. -> COMMIT
+Librarian	: I am removing this book from your account. -> RETURN_ASSERT
+Student	: Thank you. -> GREETINGS_EOC
+
+10
+
+InDirect##
+
+return
+------------------
+
+Student	: How are you sir? -> GREETINGS
+Librarian	: I am fine. -> GREETINGS_REPLY
+Student	: this book focuses on a different topic -> RETURN
+Librarian	: Are you returning this book. -> RETURN_INFO_REQUEST
+Student	: Yes sir. -> ACCEPT
+Librarian	: Give me your id card and the book you want to return. -> ACTION_DIR
+Student	: Ok sir. Take this book and my id card. -> COMMIT
+Librarian	: I am removing this book from your account. -> RETURN_ASSERT
+Student	: Thank you. -> GREETINGS_EOC
+
+11
+
+InDirect##
+
+return
+------------------
+
+Student	: How are you sir? -> GREETINGS
+Librarian	: I am fine. -> GREETINGS_REPLY
+Student	: This book doesn't suit me. -> RETURN
+Librarian	: Are you returning this book. -> RETURN_INFO_REQUEST
+Student	: Yes sir. -> ACCEPT
+Librarian	: Give me your id card and the book you want to return. -> ACTION_DIR
+Student	: Ok sir. Take this book and my id card. -> COMMIT
+Librarian	: I am removing this book from your account. -> RETURN_ASSERT
+Student	: Thank you. -> GREETINGS_EOC
+
+12
+
+Direct##
+
+return
+------------------
+
+Student	: How are you sir? -> GREETINGS
+Librarian	: I am fine. -> GREETINGS_REPLY 
+Student	: I came here to return this book. -> RETURN
+Librarian	: Give me your id card and the book you want to return. -> ACTION_DIR
+Student	: Ok sir. Take this book and my id card. -> COMMIT
+Librarian	: I am removing this book from your account. -> RETURN_ASSERT
+Student	: Thank you. -> GREETINGS_EOC
+
+13
+
+Indirect##
+
+return
+------------------
+
+Student	: How are you sir? -> GREETINGS
+Librarian	: I am fine. -> GREETINGS_REPLY 
+Student	: I don't think that i will read this book. -> RETURN
+Librarian	: Are you returning this book. -> RETURN_INFO_REQUEST
+Student	: Yes sir. -> ACCEPT
+Librarian	: Give me your id card and the book you want to return. -> ACTION_DIR
+Student	: Ok sir. Take this book and my id card. -> COMMIT
+Librarian	: I am removing this book from your account. -> RETURN_ASSERT
+Student	: Thank you. -> GREETINGS_EOC
+
+14
+
+Indirect##
+
+return
+------------------
+
+Student	: Hello Sir. -> GREETINGS
+Librarian	: Hello. -> GREETINGS_REPLY
+Student	: I didn't feel happy after reading this book. -> RETURN
+Librarian	: Are you returning this book. -> RETURN_INFO_REQUEST
+Student	: Yes sir. -> ACCEPT
+Librarian	: Give me your id card and the book you want to return. -> ACTION_DIR
+Student	: Ok sir. Take this book and my id card. -> COMMIT
+Librarian	: I am removing this book from your account. -> RETURN_ASSERT
+Student	: Thank you. -> GREETINGS_EOC
+
+15
+
+direct##
+
+return
+------------------
+
+Student	: How are you sir? -> GREETINGS
+Librarian	: I am fine. -> GREETINGS_REPLY
+Student	: Please accept my return. -> RETURN
+Librarian	: Give me your id card and the book you want to return. -> ACTION_DIR
+Student	: Ok sir. Take this book and my id card. -> COMMIT
+Librarian	: I am removing this book from your account. -> RETURN_ASSERT
+Student	: Thank you. -> GREETINGS_EOC
+
+16
+
+Indirect##
+
+return
+------------------
+
+Student	: How are you sir? -> GREETINGS
+Librarian	: I am fine. -> GREETINGS_REPLY 
+Student	: I can't read this book more. -> RETURN
+Librarian	: Are you returning this book. -> RETURN_INFO_REQUEST
+Student 	: Yes sir. -> ACCEPT
+Librarian	: Give me your id card and the book you want to return. -> ACTION_DIR
+Student	: Ok sir. Take this book and my id card. -> COMMIT
+Librarian	: I am removing this book from your account. -> RETURN_ASSERT
+Student	: Thank you. -> GREETINGS_EOC
+
+17
+
+Indirect##
+
+return
+------------------
+
+Student	: Hello Sir. -> GREETINGS
+Librarian	: Hello. -> GREETINGS_REPLY
+Student	: This book is very difficult for me to read. -> RETURN
+Librarian	: Are you returning this book. -> RETURN_INFO_REQUEST
+Student	: Yes sir. -> ACCEPT
+Librarian	: Give me your id card and the book you want to return. -> ACTION_DIR
+Student	: Ok sir. Take this book and my id card. -> COMMIT
+Librarian	: I am removing this book from your account. -> RETURN_ASSERT
+Student	: Thank you. -> GREETINGS_EOC
+
+18
+
+Indirect##
+
+return
+------------------
+
+Student	: How are you sir? -> GREETINGS
+Librarian	: I am fine. -> GREETINGS_REPLY
+Student	: I am unable to understand the contents of this book. -> RETURN
+Librarian	: Are you returning this book. -> RETURN_INFO_REQUEST
+Student	: Yes sir. -> ACCEPT
+Librarian	: Give me your id card and the book you want to return. -> ACTION_DIR
+Student	: Ok sir. Take this book and my id card. -> COMMIT
+Librarian	: I am removing this book from your account. -> RETURN_ASSERT
+Student	: Thank you. -> GREETINGS_EOC
+
+19
+
+Indirect##
+
+return
+------------------
+
+Student	: How are you sir? -> GREETINGS
+Librarian	: I am fine. -> GREETINGS_REPLY
+Student	: This book is very disturbing to read. -> RETURN
+Librarian	: Are you returning this book. -> RETURN_INFO_REQUEST
+Student	: Yes sir. -> ACCEPT
+Librarian	: Give me your id card and the book you want to return. -> ACTION_DIR
+Student	: Ok sir. Take this book and my id card. -> COMMIT
+Librarian	: I am removing this book from your account. -> RETURN_ASSERT
+Student	: Thank you. -> GREETINGS_EOC
+
+20
+
+InDirect##
+
+return
+------------------
+
+Student	: Hello Sir. -> GREETINGS
+Librarian	: Hello. -> GREETINGS_REPLY
+Student	: I am not benefited after reading this book. -> RETURN
+Librarian	: Are you returning this book. -> RETURN_INFO_REQUEST
+Student	: Yes sir. -> ACCEPT
+Librarian	: Give me your id card and the book you want to return. -> ACTION_DIR
+Student	: Ok sir. Take this book and my id card. -> COMMIT
+Librarian	: I am removing this book from your account. -> RETURN_ASSERT
+Student	: Thank you. -> GREETINGS_EOC
+
+21
+
+Indirect##
+
+return
+------------------
+
+Student	: How are you sir? -> GREETINGS
+Librarian	: I am fine. -> GREETINGS_REPLY
+Student	: This book is of no use to me. -> RETURN
+Librarian	: Are you returning this book. -> RETURN_INFO_REQUEST
+Student	: Yes sir. -> ACCEPT
+Librarian	: Give me your id card and the book you want to return. -> ACTION_DIR
+Student	: Ok sir. Take this book and my id card. -> COMMIT
+Librarian	: I am removing this book from your account. -> RETURN_ASSERT
+Student	: Thank you. -> GREETINGS_EOC
+
+
+22
+
+Direct##
+
+return
+------------------
+
+Student	: Hello Sir. -> GREETINGS
+Librarian	: Hello. -> GREETINGS_REPLY
+Student	: I don't want this book. -> RETURN
+Librarian	: Give me your id card and the book you want to return. -> ACTION_DIR
+Student	: Ok sir. Take this book and my id card. -> COMMIT
+Librarian	: I am removing this book from your account. -> RETURN_ASSERT
+Student	: Thank you. -> GREETINGS_EOC
+
+23
+
+Indirect##
+
+return
+------------------
+
+Student	: Hello Sir. -> GREETINGS
+Librarian	: Hello. -> GREETINGS_REPLY
+Student	: I will not take this book. -> RETURN
+Librarian	: Are you returning this book. -> RETURN_INFO_REQUEST
+Student	: Yes sir. -> ACCEPT
+Librarian	: Give me your id card and the book you want to return. -> ACTION_DIR
+Student	: Ok sir. Take this book and my id card. -> COMMIT
+Librarian	: I am removing this book from your account. -> RETURN_ASSERT
+Student	: Thank you. -> GREETINGS_EOC
+
+24
+
+Indirect##
+
+return
+------------------
+
+Student	: How are you sir? -> GREETINGS
+Librarian	: I am fine. -> GREETINGS_REPLY
+Student	: I am not interested in reissuing this book. -> RETURN
+Librarian	: Are you returning this book. -> RETURN_INFO_REQUEST
+Student	: Yes sir. -> ACCEPT
+Librarian	: Give me your id card and the book you want to return. -> ACTION_DIR
+Student	: Ok sir. Take this book and my id card. -> COMMIT
+Librarian	: I am removing this book from your account. -> RETURN_ASSERT
+Student	: Thank you. -> GREETINGS_EOC
+
+25
+
+Direct##
+
+return
+------------------
+
+Student	: Hello Sir. -> GREETINGS
+Librarian	: Hello. -> GREETINGS_REPLY
+Student	: I can't read more of this book. -> RETURN
+Librarian	: Give me your id card and the book you want to return. -> ACTION_DIR
+Student	: Ok sir. Take this book and my id card. -> COMMIT
+Librarian	: I am removing this book from your account. -> RETURN_ASSERT
+Student	: Thank you. -> GREETINGS_EOC
+
+26
+
+Indirect##
+
+return
+------------------
+
+Student	: How are you sir? -> GREETINGS
+Librarian	: I am fine. -> GREETINGS_REPLY
+Student	: I am not interested in reissuing this book. -> RETURN
+Librarian	: Are you returning this book. -> RETURN_INFO_REQUEST
+Student	: Yes sir. -> ACCEPT
+Librarian	: Give me your id card and the book you want to return. -> ACTION_DIR
+Student	: Ok sir. Take this book and my id card. -> COMMIT
+Librarian	: I am removing this book from your account. -> RETURN_ASSERT
+Student	: Thank you. -> GREETINGS_EOC
+
+27
+
+Indirect##
+
+return
+------------------
+
+Student	: How are you sir? -> GREETINGS
+Librarian	: I am fine. -> GREETINGS_REPLY 
+Student	: Take the book. -> RETURN
+Librarian	: Are you returning this book. -> RETURN_INFO_REQUEST
+Student	: Yes sir. -> ACCEPT
+Librarian	: Give me your id card and the book you want to return. -> ACTION_DIR
+Student	: Ok sir. Take this book and my id card. -> COMMIT
+Librarian	: I am removing this book from your account. -> RETURN_ASSERT
+Student	: Thank you. -> GREETINGS_EOC
+
+28
+
+InDirect##
+
+return
+------------------
+
+Student	: Hello Sir. -> GREETINGS
+Librarian	: Hello. -> GREETINGS_REPLY
+Student	: I do not intend to issue this book. -> RETURN
+Librarian	: Are you returning this book. -> RETURN_INFO_REQUEST
+Student	: Yes sir. -> ACCEPT
+Librarian	: Give me your id card and the book you want to return. -> ACTION_DIR
+Student	: Ok sir. Take this book and my id card. -> COMMIT
+Librarian	: I am removing this book from your account. -> RETURN_ASSERT
+Student	: Thank you. -> GREETINGS_EOC
+
+29
+
+Direct##
+
+return
+------------------
+
+Student	: How are you sir? -> GREETINGS
+Librarian	: I am fine. -> GREETINGS_REPLY
+Student	: I am not interested in reading the book again. -> RETURN
+Librarian	: Give me your id card and the book you want to return. -> ACTION_DIR
+Student	: Ok sir. Take this book and my id card. -> COMMIT
+Librarian	: I am removing this book from your account. -> RETURN_ASSERT
+Student	: Thank you. -> GREETINGS_EOC
+
+30
+
+InDirect##
+
+return
+------------------
+
+Student	: Hello Sir. -> GREETINGS
+Librarian	: Hello. -> GREETINGS_REPLY
+Student	: I certainly will not take this book  -> RETURN
+Librarian	: Are you returning this book. -> RETURN_INFO_REQUEST
+Student	: Yes sir. -> ACCEPT
+Librarian	: Give me your id card and the book you want to return. -> ACTION_DIR
+Student	: Ok sir. Take this book and my id card. -> COMMIT
+Librarian	: I am removing this book from your account. -> RETURN_ASSERT
+Student	: Thank you. -> GREETINGS_EOC
+
+31
+
+InDirect##
+
+return
+------------------
+
+Student	: How are you sir? -> GREETINGS
+Librarian 	: I am fine. -> GREETINGS_REPLY
+Student	: I will return this book by tomorrow. -> RETURN
+Librarian	: Are you returning this book. -> RETURN_INFO_REQUEST
+Student	: Yes sir. -> ACCEPT
+Librarian	: Give me your id card and the book you want to return. -> ACTION_DIR
+Student	: Ok sir. Take this book and my id card. -> COMMIT
+Librarian	: I am removing this book from your account. -> RETURN_ASSERT
+Student	: Thank you. -> GREETINGS_EOC
+
+32
+
+InDirect##
+
+return
+------------------
+
+Student	: How are you sir? -> GREETINGS
+Librarian	: I am fine. -> GREETINGS_REPLY
+Student	: You said that you will take this book from me. -> RETURN
+Librarian	: Are you returning this book. -> RETURN_INFO_REQUEST
+Student	: Yes sir. -> ACCEPT
+Librarian	: Give me your id card and the book you want to return. -> ACTION_DIR
+Student	: Ok sir. Take this book and my id card. -> COMMIT
+Librarian	: I am removing this book from your account. -> RETURN_ASSERT
+Student	: Thank you. -> GREETINGS_EOC
+
+33
+
+Direct##
+
+return
+------------------
+
+Student	: How are you sir? -> GREETINGS
+Librarian	: I am fine. -> GREETINGS_REPLY 
+Student	: This book is not useful to me. -> RETURN
+Librarian	: Give me your id card and the book you want to return. -> ACTION_DIR
+Student	: Ok sir. Take this book and my id card. -> COMMIT
+Librarian	: I am removing this book from your account. -> RETURN_ASSERT
+Student	: Thank you. -> GREETINGS_EOC
+
+34
+
+Indirect##
+
+return
+------------------
+
+Student	: How are you sir? -> GREETINGS
+Librarian	: I am fine. -> GREETINGS_REPLY 
+Student	: For now, take this book from me. -> RETURN
+Librarian	: Are you returning this book. -> RETURN_INFO_REQUEST
+Student	: Yes sir. -> ACCEPT
+Librarian 	: Give me your id card and the book you want to return. -> ACTION_DIR
+Student	: Ok sir. Take this book and my id card. -> COMMIT
+Librarian	: I am removing this book from your account. -> RETURN_ASSERT
+Student	: Thank you. -> GREETINGS_EOC
+
+35
+
+Indirect##
+
+return
+------------------
+
+Student	: Hello Sir. -> GREETINGS
+Librarian	: Hello. -> GREETINGS_REPLY
+Student	: Don't issue me this book. -> RETURN
+Librarian	: Are you returning this book. -> RETURN_INFO_REQUEST
+Student	: Yes sir. -> ACCEPT
+Librarian	: Give me your id card and the book you want to return. -> ACTION_DIR
+Student	: Ok sir. Take this book and my id card. -> COMMIT
+Librarian	: I am removing this book from your account. -> RETURN_ASSERT
+Student	: Thank you. -> GREETINGS_EOC
+
+36
+
+direct##
+
+return
+------------------
+
+Student	: How are you sir? -> GREETINGS
+Librarian	: I am fine. -> GREETINGS_REPLY
+Student	: Take this book. -> RETURN
+Librarian	: Give me your id card and the book you want to return. -> ACTION_DIR
+Student	: Ok sir. Take this book and my id card. -> COMMIT
+Librarian	: I am removing this book from your account. -> RETURN_ASSERT
+Student	: Thank you. -> GREETINGS_EOC
+
+37
+
+Indirect##
+
+return
+------------------
+
+Student	: How are you sir? -> GREETINGS
+Librarian	: I am fine. -> GREETINGS_REPLY 
+Student	: Please take this book. -> RETURN
+Librarian	: Are you returning this book. -> RETURN_INFO_REQUEST
+Student	: Yes sir. -> ACCEPT
+Librarian	: Give me your id card and the book you want to return. -> ACTION_DIR
+Student	: Ok sir. Take this book and my id card. -> COMMIT
+Librarian	: I am removing this book from your account. -> RETURN_ASSERT
+Student	: Thank you. -> GREETINGS_EOC
+
+38
+
+Indirect##
+
+return
+------------------
+
+Student	: Hello Sir. -> GREETINGS
+Librarian	: Hello. -> GREETINGS_REPLY
+Student	: I don't want to read this book again. -> RETURN
+Librarian	: Are you returning this book. -> RETURN_INFO_REQUEST
+Student	: Yes sir. -> ACCEPT
+Librarian	: Give me your id card and the book you want to return. -> ACTION_DIR
+Student	: Ok sir. Take this book and my id card. -> COMMIT
+Librarian	: I am removing this book from your account. -> RETURN_ASSERT
+Student	: Thank you. -> GREETINGS_EOC
+
+39
+
+Indirect##
+
+return
+------------------
+
+Student	: How are you sir? -> GREETINGS
+Librarian	: I am fine. -> GREETINGS_REPLY
+Student	: Don't reissue me this book. -> RETURN
+Librarian	: Are you returning this book. -> RETURN_INFO_REQUEST
+Student	: Yes sir. -> ACCEPT
+Librarian	: Give me your id card and the book you want to return. -> ACTION_DIR
+Student	: Ok sir. Take this book and my id card. -> COMMIT
+Librarian	: I am removing this book from your account. -> RETURN_ASSERT
+Student	: Thank you. -> GREETINGS_EOC
+
+40
+
+Indirect##
+
+return
+------------------
+
+Student	: How are you sir? -> GREETINGS
+Librarian	: I am fine. -> GREETINGS_REPLY
+Student	: I would like to return this book. -> RETURN
+Librarian	: Are you returning this book. -> RETURN_INFO_REQUEST
+Student	: Yes sir. -> ACCEPT
+Librarian	: Give me your id card and the book you want to return. -> ACTION_DIR
+Student	: Ok sir. Take this book and my id card. -> COMMIT
+Librarian	: I am removing this book from your account. -> RETURN_ASSERT
+Student	: Thank you. -> GREETINGS_EOC
+
+41
+
+InDirect##
+
+return
+------------------
+
+Student	: Hello Sir. -> GREETINGS
+Librarian	: Hello. -> GREETINGS_REPLY
+Student	: take this book. -> RETURN
+Librarian	: Are you returning this book. -> RETURN_INFO_REQUEST
+Student	: Yes sir. -> ACCEPT
+Librarian	: Give me your id card and the book you want to return. -> ACTION_DIR
+Student	: Ok sir. Take this book and my id card. -> COMMIT
+Librarian	: I am removing this book from your account. -> RETURN_ASSERT
+Student	: Thank you. -> GREETINGS_EOC
+
+42
+
+Indirect##
+
+return
+------------------
+
+Student	: How are you sir? -> GREETINGS
+Librarian	: I am fine. -> GREETINGS_REPLY
+Student	: I will not take this book again. -> RETURN
+Librarian	: Are you returning this book. -> RETURN_INFO_REQUEST
+Student	: Yes sir. -> ACCEPT
+Librarian	: Give me your id card and the book you want to return. -> ACTION_DIR
+Student	: Ok sir. Take this book and my id card. -> COMMIT
+Librarian	: I am removing this book from your account. -> RETURN_ASSERT
+Student	: Thank you. -> GREETINGS_EOC
+
+43
+
+Direct##
+
+return
+------------------
+
+Student	: Hello Sir. -> GREETINGS
+Librarian	: Hello. -> GREETINGS_REPLY
+Student	: I will not read this book again. -> RETURN
+Librarian	: Give me your id card and the book you want to return. -> ACTION_DIR
+Student	: Ok sir. Take this book and my id card. -> COMMIT
+Librarian	: I am removing this book from your account. -> RETURN_ASSERT
+Student	: Thank you. -> GREETINGS_EOC
+
+44
+
+Indirect##
+
+return
+------------------
+
+Student	: Hello Sir. -> GREETINGS
+Librarian	: Hello. -> GREETINGS_REPLY
+Student	: I will take this book some other time. -> RETURN
+Librarian	: Are you returning this book. -> RETURN_INFO_REQUEST
+Student	: Yes sir. -> ACCEPT
+Librarian	: Give me your id card and the book you want to return. -> ACTION_DIR
+Student	: Ok sir. Take this book and my id card. -> COMMIT
+Librarian	: I am removing this book from your account. -> RETURN_ASSERT
+Student	: Thank you. -> GREETINGS_EOC
+
+45
+
+Indirect##
+
+return
+------------------
+
+Student	: How are you sir? -> GREETINGS
+Librarian	: I am fine. -> GREETINGS_REPLY
+Student	: You said that you will take this book. -> RETURN
+Librarian	: Are you returning this book. -> RETURN_INFO_REQUEST
+Student	: Yes sir. -> ACCEPT
+Librarian	: Give me your id card and the book you want to return. -> ACTION_DIR
+Student	: Ok sir. Take this book and my id card. -> COMMIT
+Librarian	: I am removing this book from your account. -> RETURN_ASSERT
+Student	: Thank you. -> GREETINGS_EOC
+
+46
+
+Direct##
+
+return
+------------------
+
+Student	: Hello Sir. -> GREETINGS
+Librarian	: Hello. -> GREETINGS_REPLY
+Student	: By tomorrow, the book's due date will come to end. I will return it tomorrow. -> RETURN
+Librarian	: Give me your id card and the book you want to return. -> ACTION_DIR
+Student	: Ok sir. Take this book and my id card. -> COMMIT
+Librarian	: I am removing this book from your account. -> RETURN_ASSERT
+Student	: Thank you. -> GREETINGS_EOC
+
+47
+
+Indirect##
+
+return
+------------------
+
+Student	: How are you sir? -> GREETINGS
+Librarian	: I am fine. -> GREETINGS_REPLY
+Student	: By tomorrow, the book's due date will come to end. So take it. -> RETURN
+Librarian	: Are you returning this book. -> RETURN_INFO_REQUEST
+Student	: Yes sir. -> ACCEPT
+Librarian	: Give me your id card and the book you want to return. -> ACTION_DIR
+Student	: Ok sir. Take this book and my id card. -> COMMIT
+Librarian	: I am removing this book from your account. -> RETURN_ASSERT
+Student	: Thank you. -> GREETINGS_EOC
+
+48
+
+Indirect##
+
+return
+------------------
+
+Student	: How are you sir? -> GREETINGS
+Librarian	: I am fine. -> GREETINGS_REPLY 
+Student	: By tomorrow, the book's due date will be completed. So take it. -> RETURN
+Librarian	: Are you returning this book. -> RETURN_INFO_REQUEST
+Student	: Yes sir. -> ACCEPT
+Librarian	: Give me your id card and the book you want to return. -> ACTION_DIR
+Student	: Ok sir. Take this book and my id card. -> COMMIT
+Librarian	: I am removing this book from your account. -> RETURN_ASSERT
+Student	: Thank you. -> GREETINGS_EOC
+
+49
+
+InDirect##
+
+return
+------------------
+
+Student	: Hello Sir. -> GREETINGS
+Librarian	: Hello. -> GREETINGS_REPLY
+Student	: I have completed reading this book. -> RETURN
+Librarian	: Are you returning this book. -> RETURN_INFO_REQUEST
+Student	: Yes sir. -> ACCEPT
+Librarian	: Give me your id card and the book you want to return. -> ACTION_DIR
+Student	: Ok sir. Take this book and my id card. -> COMMIT
+Librarian	: I am removing this book from your account. -> RETURN_ASSERT
+Student	: Thank you. -> GREETINGS_EOC
+
+50
+
+Direct##
+
+return
+------------------
+
+Student	: How are you sir? -> GREETINGS
+Librarian	: I am fine. -> GREETINGS_REPLY
+Student	: I have completed reading all the topics in this book. -> RETURN
+Librarian	: Give me your id card and the book you want to return. -> ACTION_DIR
+Student	: Ok sir. Take this book and my id card. -> COMMIT
+Librarian	: I am removing this book from your account. -> RETURN_ASSERT
+Student	: Thank you. -> GREETINGS_EOC
+
+51
+
+InDirect##
+
+return
+------------------
+
+Student	: Hello Sir. -> GREETINGS
+Librarian	: Hello. -> GREETINGS_REPLY
+Student	: I have read all the topics in this book. -> RETURN
+Librarian	: Are you returning this book. -> RETURN_INFO_REQUEST
+Student	: Yes sir. -> ACCEPT
+Librarian	: Give me your id card and the book you want to return. -> ACTION_DIR
+Student	: Ok sir. Take this book and my id card. -> COMMIT
+Librarian	: I am removing this book from your account. -> RETURN_ASSERT
+Student	: Thank you. -> GREETINGS_EOC
+
+52
+
+InDirect##
+
+return
+------------------
+
+Student	: How are you sir? -> GREETINGS
+Librarian	: I am fine. -> GREETINGS_REPLY
+Student	: There are no topics in this book for me to read. -> RETURN
+Librarian	: Are you returning this book. -> RETURN_INFO_REQUEST
+Student	: Yes sir. -> ACCEPT
+Librarian	: Give me your id card and the book you want to return. -> ACTION_DIR
+Student	: Ok sir. Take this book and my id card. -> COMMIT
+Librarian	: I am removing this book from your account. -> RETURN_ASSERT
+Student	: Thank you. -> GREETINGS_EOC
+
+53
+
+InDirect##
+
+return
+------------------
+
+Student	: How are you sir? -> GREETINGS
+Librarian	: I am fine. -> GREETINGS_REPLY
+Student	: Don't issue me this book again. -> RETURN
+Librarian	: Are you returning this book. -> RETURN_INFO_REQUEST
+Student	: Yes sir. -> ACCEPT
+Librarian	: Give me your id card and the book you want to return. -> ACTION_DIR
+Student	: Ok sir. Take this book and my id card. -> COMMIT
+Librarian	: I am removing this book from your account. -> RETURN_ASSERT
+Student	: Thank you. -> GREETINGS_EOC
+
+54
+
+Direct##
+
+return
+------------------
+
+Student	: How are you sir? -> GREETINGS
+Librarian	: I am fine. -> GREETINGS_REPLY 
+Student	: Exams are completing by tomorrow. I will return the book. -> RETURN
+Librarian	: Give me your id card and the book you want to return. -> ACTION_DIR
+Student	: Ok sir. Take this book and my id card. -> COMMIT
+Librarian	: I am removing this book from your account. -> RETURN_ASSERT
+Student	: Thank you. -> GREETINGS_EOC
+
+55
+
+Indirect##
+
+return
+------------------
+
+Student	: How are you sir? -> GREETINGS
+Librarian	: I am fine. -> GREETINGS_REPLY 
+Student	: There are no topics in this book for me to read. -> RETURN
+Librarian	: Are you returning this book. -> RETURN_INFO_REQUEST
+Student	: Yes sir. -> ACCEPT
+Librarian	: Give me your id card and the book you want to return. -> ACTION_DIR
+Student	: Ok sir. Take this book and my id card. -> COMMIT
+Librarian	: I am removing this book from your account. -> RETURN_ASSERT
+Student	: Thank you. -> GREETINGS_EOC
+
+56
+
+Indirect##
+
+return
+------------------
+
+Student	: Hello Sir. -> GREETINGS
+Librarian	: Hello. -> GREETINGS_REPLY
+Student	: I don't think that I will take this book again. -> RETURN
+Librarian	: Are you returning this book. -> RETURN_INFO_REQUEST
+Student	: Yes sir. -> ACCEPT
+Librarian	: Give me your id card and the book you want to return. -> ACTION_DIR
+Student	: Ok sir. Take this book and my id card. -> COMMIT
+Librarian	: I am removing this book from your account. -> RETURN_ASSERT
+Student	: Thank you. -> GREETINGS_EOC
+
+57
+
+direct##
+
+return
+------------------
+
+Student	: How are you sir? -> GREETINGS
+Librarian	: I am fine. -> GREETINGS_REPLY
+Student	: I am returning this book today. -> RETURN
+Librarian	: Give me your id card and the book you want to return. -> ACTION_DIR
+Student	: Ok sir. Take this book and my id card. -> COMMIT
+Librarian	: I am removing this book from your account. -> RETURN_ASSERT
+Student	: Thank you. -> GREETINGS_EOC
+
+58
+
+Indirect##
+
+return
+------------------
+
+Student	: How are you sir? -> GREETINGS
+Librarian	: I am fine. -> GREETINGS_REPLY 
+Student	: This book has no topics related to me. -> RETURN
+Librarian	: Are you returning this book. -> RETURN_INFO_REQUEST
+Student	: Yes sir. -> ACCEPT
+Librarian	: Give me your id card and the book you want to return. -> ACTION_DIR
+Student	: Ok sir. Take this book and my id card. -> COMMIT
+Librarian	: I am removing this book from your account. -> RETURN_ASSERT
+Student	: Thank you. -> GREETINGS_EOC
+
+59
+
+Indirect##
+
+return
+------------------
+
+Student	: Hello Sir. -> GREETINGS
+Librarian	: Hello. -> GREETINGS_REPLY
+Student	: This book has no topics related to my study. -> RETURN
+Librarian	: Are you returning this book. -> RETURN_INFO_REQUEST
+Student	: Yes sir. -> ACCEPT
+Librarian	: Give me your id card and the book you want to return. -> ACTION_DIR
+Student	: Ok sir. Take this book and my id card. -> COMMIT
+Librarian	: I am removing this book from your account. -> RETURN_ASSERT
+Student	: Thank you. -> GREETINGS_EOC
+
+60
+
+Indirect##
+
+return
+------------------
+
+Student	: How are you sir? -> GREETINGS
+Librarian	: I am fine. -> GREETINGS_REPLY
+Student	: Don't give me this book for the second time. -> RETURN
+Librarian	: Are you returning this book. -> RETURN_INFO_REQUEST
+Student	: Yes sir. -> ACCEPT
+Librarian	: Give me your id card and the book you want to return. -> ACTION_DIR
+Student	: Ok sir. Take this book and my id card. -> COMMIT
+Librarian	: I am removing this book from your account. -> RETURN_ASSERT
+Student	: Thank you. -> GREETINGS_EOC
+
+61
+
+Indirect##
+
+return
+------------------
+
+Student	: How are you sir? -> GREETINGS
+Librarian	: I am fine. -> GREETINGS_REPLY
+Student	: I won't take the book for the second time. -> RETURN
+Librarian	: Are you returning this book. -> RETURN_INFO_REQUEST
+Student	: Yes sir. -> ACCEPT
+Librarian	: Give me your id card and the book you want to return. -> ACTION_DIR
+Student	: Ok sir. Take this book and my id card. -> COMMIT
+Librarian	: I am removing this book from your account. -> RETURN_ASSERT
+Student	: Thank you. -> GREETINGS_EOC

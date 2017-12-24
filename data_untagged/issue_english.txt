@@ -1,0 +1,1147 @@
+1
+
+Direct##
+
+issue
+------------------
+
+student	: hello sir.
+librarian	: hello.
+student	: I want to issue this book.
+librarian	: Give me your id card.
+student	: Ok sir, take my id card.
+librarian	: I am giving the book. According to rules, you should return the book in 1 month or else you have to pay the fine.
+student	: Ok sir, I will return the book.
+student	: thank you.
+
+2
+
+Direct##
+
+
+issue
+------------------
+
+student	: hello sir.
+librarian	: hello.
+student	: I want to take this book.
+librarian	: Give your id card to me.
+student	: Ok sir, take my id card.
+librarian	: I am giving the book. According to rules, you should return the book in 1 month or else you have to pay the fine.
+student	: Ok sir, I will return the book.
+student	: thank you.
+
+3
+
+Direct##
+
+issue
+------------------
+
+student	: How are you sir?
+librarian	: I am fine. Thank you.
+student	: I think that I should issue this book.
+librarian	: Give your id card to me.
+student	: Ok sir, take my id card.
+librarian	: I am giving the book. According to rules, you should return the book in 1 month or else you have to pay the fine.
+student	: Ok sir, I will return the book.
+student	: thank you.
+
+4
+
+Direct##
+
+issue
+------------------
+
+student	: hello sir.
+librarian	: hello.
+student	: I think that I should take this book.
+librarian	: Give your id card to me.
+student	: Ok sir, take my id card.
+librarian	: I am giving the book. According to rules, you should return the book in 1 month or else you have to pay the fine.
+student	: Ok sir, I will return the book.
+student	: thank you.
+
+5
+
+Direct##
+
+issue
+------------------
+
+student	: How are you sir?
+librarian	: I am fine. Thank you.
+student	: I should take this book.
+librarian	: Give your id card to me.
+student	: Ok sir, take my id card.
+librarian	: I am giving the book. According to rules, you should return the book in 1 month or else you have to pay the fine.
+student	: Ok sir, I will return the book.
+student	: thank you.
+
+6
+
+Direct##
+
+issue
+------------------
+
+student	: How are you sir?
+librarian	: I am fine. Thank you.
+student	: I would like to issue this book.
+librarian	: Give your id card to me.
+student	: Ok sir, take my id card.
+librarian	: I am giving the book. According to rules, you should return the book in 1 month or else you have to pay the fine.
+student	: Ok sir, I will return the book.
+student	: thank you.
+
+7
+
+Direct##
+
+issue
+------------------
+
+student	: hello sir.
+librarian	: hello.
+student	: Give me this book.
+librarian	: Give your id card to me.
+student	: Ok sir, take my id card.
+librarian	: I am giving the book. According to rules, you should return the book in 1 month or else you have to pay the fine.
+student	: Ok sir, I will return the book.
+student	: thank you.
+
+8
+
+Direct##
+
+issue
+------------------
+
+student	: How are you sir?
+librarian	: I am fine. Thank you.
+student	: I came here to take this book
+librarian	: Give your id card to me.
+student	: Ok sir, take my id card.
+librarian	: I am giving the book. According to rules, you should return the book in 1 month or else you have to pay the fine.
+student	: Ok sir, I will return the book.
+student	: thank you.
+
+9
+
+Direct##
+
+issue
+------------------
+
+student	: hello sir.
+librarian	: hello.
+student	: I came here to issue this book.
+librarian	: Give your id card to me.
+student	: Ok sir, take my id card.
+librarian	: I am giving the book. According to rules, you should return the book in 1 month or else you have to pay the fine.
+student	: Ok sir, I will return the book.
+student	: thank you.
+
+10
+
+Direct##
+
+issue
+------------------
+
+student	: How are you sir?
+librarian	: I am fine. Thank you.
+student	: I am ready to take this book
+librarian	: Give your id card to me.
+student	: Ok sir, take my id card.
+librarian	: I am giving the book. According to rules, you should return the book in 1 month or else you have to pay the fine.
+student	: Ok sir, I will return the book.
+student	: thank you.
+
+11
+
+Direct##
+
+issue
+------------------
+
+student	: How are you sir?
+librarian	: I am fine. Thank you.
+student	: I am ready to issue this book
+librarian	: Give your id card to me.
+student	: Ok sir, take my id card.
+librarian	: I am giving the book. According to rules, you should return the book in 1 month or else you have to pay the fine.
+student	: Ok sir, I will return the book.
+student	: thank you.
+
+12
+
+Direct##
+
+issue
+------------------
+
+student	: How are you sir?
+librarian	: I am fine. Thank you. It's been a long time since I saw you.
+student	: From a long time, I am thinking to issue this book.
+librarian	: Give your id card to me.
+student	: Ok sir, take my id card.
+librarian	: I am giving the book. According to rules, you should return the book in 1 month or else you have to pay the fine.
+student	: Ok sir, I will return the book.
+student	: thank you.
+
+13
+
+Indirect##
+
+issue
+------------------
+
+student	: How are you sir?
+librarian	: I am fine. Thank you. It's been a long time since I saw you.
+student	: I like this book.
+librarian	: Should I issue this book to you?
+student	: Yes sir.
+librarian	: Give your id card to me.
+student	: Ok sir, take my id card.
+librarian	: I am giving the book. According to rules, you should return the book in 1 month or else you have to pay the fine.
+student	: Ok sir, I will return the book.
+student	: thank you.
+
+14
+
+Indirect##
+
+issue
+------------------
+
+student	: hello sir.
+librarian	: hello.
+student	: I like this book very much.
+librarian	: Should I issue this book to you?
+student	: Yes sir.
+librarian	: Give your id card to me.
+student	: Ok sir, take my id card.
+librarian	: I am giving the book. According to rules, you should return the book in 1 month or else you have to pay the fine.
+student	: Ok sir, I will return the book.
+student	: thank you.
+
+15
+
+Indirect##
+
+issue
+------------------
+
+student	: How are you sir?
+librarian	: I am fine. Thank you.
+student	: I want to read this book.
+librarian	: Should I issue this book to you?
+student	: Yes sir.
+librarian	: Give your id card to me.
+student	: Ok sir, take my id card.
+librarian	: I am giving the book. According to rules, you should return the book in 1 month or else you have to pay the fine.
+student	: Ok sir, I will return the book.
+student	: thank you.
+
+16
+
+Indirect##
+
+issue
+------------------
+
+student	: How are you sir?
+librarian	: I am fine. Thank you. It's been a long time since I saw you
+student	: I would like to read this book.
+librarian	: Should I issue this book to you?
+student	: Yes sir.
+librarian	: Give your id card to me.
+student	: Ok sir, take my id card.
+librarian	: I am giving the book. According to rules, you should return the book in 1 month or else you have to pay the fine.
+student	: Ok sir, I will return the book.
+student	: thank you.
+
+17
+
+Indirect##
+
+issue
+------------------
+
+student	: hello sir.
+librarian	: hello.
+student	: I like reading this book.
+librarian	: Should I issue this book to you?
+student	: Yes sir.
+librarian	: Give your id card to me.
+student	: Ok sir, take my id card.
+librarian	: I am giving the book. According to rules, you should return the book in 1 month or else you have to pay the fine.
+student	: Ok sir, I will return the book.
+student	: thank you.
+
+18
+
+Indirect##
+
+issue
+------------------
+
+student	: How are you sir?
+librarian	: I am fine. Thank you.
+student	: I am enthusiastic to read this book.
+librarian	: Should I issue this book to you?
+student	: Yes sir.
+librarian	: Give your id card to me.
+student	: Ok sir, take my id card.
+librarian	: I am giving the book. According to rules, you should return the book in 1 month or else you have to pay the fine.
+student	: Ok sir, I will return the book.
+student	: thank you.
+
+19
+
+Indirect##
+
+issue
+------------------
+
+student	: How are you sir?
+librarian	: I am fine. Thank you.
+student	: I think of reading this book.
+librarian	: Should I issue this book to you?
+student	: Yes sir.
+librarian	: Give your id card to me.
+student	: Ok sir, take my id card.
+librarian	: I am giving the book. According to rules, you should return the book in 1 month or else you have to pay the fine.
+student	: Ok sir, I will return the book.
+student	: thank you.
+
+20
+
+Indirect##
+
+issue
+------------------
+
+student	: How are you sir?
+librarian	: I am fine. Thank you. It's been a long time since I saw you
+student	: This book is very good to read.
+librarian	: Should I issue this book to you?
+student	: Yes sir.
+librarian	: Give your id card to me.
+student	: Ok sir, take my id card.
+librarian	: I am giving the book. According to rules, you should return the book in 1 month or else you have to pay the fine.
+student	: Ok sir, I will return the book.
+student	: thank you.
+
+21
+
+Indirect##
+
+issue
+------------------
+
+student	: hello sir.
+librarian	: hello.
+student	: My friends said that this book is very interesting to read. So I am thinking..
+librarian	: Should I issue this book to you?
+student	: Yes sir.
+librarian	: Give your id card to me.
+student	: Ok sir, take my id card.
+librarian	: I am giving the book. According to rules, you should return the book in 1 month or else you have to pay the fine.
+student	: Ok sir, I will return the book.
+student	: thank you.
+
+22
+
+Indirect##
+
+issue
+------------------
+
+student	: hello sir.
+librarian	: hello.
+student	: I came here for this book.
+librarian	: Should I issue this book to you?
+student	: Yes sir.
+librarian	: Give your id card to me.
+student	: Ok sir, take my id card.
+librarian	: I am giving the book. According to rules, you should return the book in 1 month or else you have to pay the fine.
+student	: Ok sir, I will return the book.
+student	: thank you.
+
+23
+
+Direct##
+
+issue
+------------------
+
+student	: How are you sir?
+librarian	: I am fine. Thank you.
+student	: If you have this book, please issue it.
+librarian	: Give your id card to me.
+student	: Ok sir, take my id card.
+librarian	: I am giving the book. According to rules, you should return the book in 1 month or else you have to pay the fine.
+student	: Ok sir, I will return the book.
+student	: thank you.
+
+24
+
+student	: hello sir.
+librarian	: hello.
+student	: Issue this book to me.
+librarian	: Give your id card to me.
+student	: Ok sir, take my id card.
+librarian	: I am giving the book. According to rules, you should return the book in 1 month or else you have to pay the fine.
+student	: Ok sir, I will return the book.
+student	: thank you.
+
+25
+
+student	: How are you sir?
+librarian	: I am fine. Thank you.
+student	: Issue me this book.
+librarian	: Give your id card to me.
+student	: Ok sir, take my id card.
+librarian	: I am giving the book. According to rules, you should return the book in 1 month or else you have to pay the fine.
+student	: Ok sir, I will return the book.
+student	: thank you.
+
+26
+
+student	: How are you sir?
+librarian	: I am fine. Thank you.
+student	: I came here to ask about this book.
+librarian	: Should I issue this book to you?
+student	: Yes sir.
+librarian	: Give your id card to me.
+student	: Ok sir, take my id card.
+librarian	: I am giving the book. According to rules, you should return the book in 1 month or else you have to pay the fine.
+student	: Ok sir, I will return the book.
+student	: thank you.
+
+27
+
+student	: How are you sir?
+librarian	: I am fine. Thank you. It's been a long time since I saw you
+student	: permit me to take this book
+librarian	: Should I issue this book to you?
+student	: Yes sir.
+librarian	: Give your id card to me.
+student	: Ok sir, take my id card.
+librarian	: I am giving the book. According to rules, you should return the book in 1 month or else you have to pay the fine.
+student	: Ok sir, I will return the book.
+student	: thank you.
+
+28
+
+student	: hello sir.
+librarian	: hello.
+student	: I like this book.
+librarian	: Should I issue this book to you?
+student	: Yes sir.
+librarian	: Give your id card to me.
+student	: Ok sir, take my id card.
+librarian	: I am giving the book. According to rules, you should return the book in 1 month or else you have to pay the fine.
+student	: Ok sir, I will return the book.
+student	: thank you.
+
+29
+
+Direct##
+
+issue
+------------------
+
+student	: hello sir.
+librarian	: hello.
+student	: I want this book.
+librarian	: Give your id card to me.
+student	: Ok sir, take my id card.
+librarian	: I am giving the book. According to rules, you should return the book in 1 month or else you have to pay the fine.
+student	: Ok sir, I will return the book.
+student	: thank you.
+
+30
+
+Direct##
+
+
+issue
+------------------
+
+student	: hello sir.
+librarian	: hello.
+student	: Give me this book.
+librarian	: Give your id card to me.
+student	: Ok sir, take my id card.
+librarian	: I am giving the book. According to rules, you should return the book in 1 month or else you have to pay the fine.
+student	: Ok sir, I will return the book.
+student	: thank you.
+
+31
+
+Direct##
+
+issue
+------------------
+
+student	: How are you sir?
+librarian	: I am fine. Thank you.
+student	: I think that I should issue this book.
+librarian	: Give your id card to me.
+student	: Ok sir, take my id card.
+librarian	: I am giving the book. According to rules, you should return the book in 1 month or else you have to pay the fine.
+student	: Ok sir, I will return the book.
+student	: thank you.
+
+32
+
+Direct##
+
+issue
+------------------
+
+student	: hello sir.
+librarian	: hello.
+student	: I want this book.
+librarian	: Give your id card to me.
+student	: Ok sir, take my id card.
+librarian	: I am giving the book. According to rules, you should return the book in 1 month or else you have to pay the fine.
+student	: Ok sir, I will return the book.
+student	: thank you.
+
+33
+
+Direct##
+
+issue
+------------------
+
+student	: How are you sir?
+librarian	: I am fine. Thank you.
+student	: I should take this book.
+librarian	: Give your id card to me.
+student	: Ok sir, take my id card.
+librarian	: I am giving the book. According to rules, you should return the book in 1 month or else you have to pay the fine.
+student	: Ok sir, I will return the book.
+student	: thank you.
+
+34
+
+Direct##
+
+issue
+------------------
+
+student	: How are you sir?
+librarian	: I am fine. Thank you. It's been a long time since I saw you
+student	: Hand over this book to me.
+librarian	: Give your id card to me.
+student	: Ok sir, take my id card.
+librarian	: I am giving the book. According to rules, you should return the book in 1 month or else you have to pay the fine.
+student	: Ok sir, I will return the book.
+student	: thank you.
+
+35
+
+Direct##
+
+issue
+------------------
+
+student	: hello sir.
+librarian	: hello.
+student	: Give me this book.
+librarian	: Give your id card to me.
+student	: Ok sir, take my id card.
+librarian	: I am giving the book. According to rules, you should return the book in 1 month or else you have to pay the fine.
+student	: Ok sir, I will return the book.
+student	: thank you.
+
+36
+
+Direct##
+
+issue
+------------------
+
+student	: How are you sir?
+librarian	: I am fine. Thank you.
+student	: Would you give this book to me?
+librarian	: Give your id card to me.
+student	: Ok sir, take my id card.
+librarian	: I am giving the book. According to rules, you should return the book in 1 month or else you have to pay the fine.
+student	: Ok sir, I will return the book.
+student	: thank you.
+
+37
+
+Direct##
+
+issue
+------------------
+
+student	: hello sir.
+librarian	: hello.
+student	: I came here to issue this book
+librarian	: Give your id card to me.
+student	: Ok sir, take my id card.
+librarian	: I am giving the book. According to rules, you should return the book in 1 month or else you have to pay the fine.
+student	: Ok sir, I will return the book.
+student	: thank you.
+
+38
+
+Direct##
+
+issue
+------------------
+
+student	: How are you sir?
+librarian	: I am fine. Thank you.
+student	: Shall I take this book?
+librarian	: Give your id card to me.
+student	: Ok sir, take my id card.
+librarian	: I am giving the book. According to rules, you should return the book in 1 month or else you have to pay the fine.
+student	: Ok sir, I will return the book.
+student	: thank you.
+
+39
+
+Direct##
+
+issue
+------------------
+
+student	: How are you sir?
+librarian	: I am fine. Thank you.
+student	: I am interested in reading this book.
+librarian	: Give your id card to me.
+student	: Ok sir, take my id card.
+librarian	: I am giving the book. According to rules, you should return the book in 1 month or else you have to pay the fine.
+student	: Ok sir, I will return the book.
+student	: thank you.
+
+40
+
+Direct##
+
+issue
+------------------
+
+student	: How are you sir?
+librarian	: I am fine. Thank you. It's been a long time since I saw you
+student	: I am interested to take this book.
+librarian	: Give your id card to me.
+student	: Ok sir, take my id card.
+librarian	: I am giving the book. According to rules, you should return the book in 1 month or else you have to pay the fine.
+student	: Ok sir, I will return the book.
+student	: thank you.
+
+41
+
+Indirect##
+
+issue
+------------------
+
+student	: How are you sir?
+librarian	: I am fine. Thank you. It's been a long time since I saw you
+student	: Issue this book.
+librarian	: Should I issue this book to you?
+student	: Yes sir.
+librarian	: Give your id card to me.
+student	: Ok sir, take my id card.
+librarian	: I am giving the book. According to rules, you should return the book in 1 month or else you have to pay the fine.
+student	: Ok sir, I will return the book.
+student	: thank you.
+
+42
+
+Indirect##
+
+issue
+------------------
+
+student	: hello sir.
+librarian	: hello.
+student	: I will take this book.
+librarian	: Should I issue this book to you?
+student	: Yes sir.
+librarian	: Give your id card to me.
+student	: Ok sir, take my id card.
+librarian	: I am giving the book. According to rules, you should return the book in 1 month or else you have to pay the fine.
+student	: Ok sir, I will return the book.
+student	: thank you.
+
+43
+
+Indirect##
+
+issue
+------------------
+
+student	: How are you sir?
+librarian	: I am fine. Thank you.
+student	: My main purpose is to issue this book.
+librarian	: Should I issue this book to you?
+student	: Yes sir.
+librarian	: Give your id card to me.
+student	: Ok sir, take my id card.
+librarian	: I am giving the book. According to rules, you should return the book in 1 month or else you have to pay the fine.
+student	: Ok sir, I will return the book.
+student	: thank you.
+
+44
+
+Indirect##
+
+issue
+------------------
+
+student	: How are you sir?
+librarian	: I am fine. Thank you. It's been a long time since I saw you
+student	: I think that I should read this book.
+librarian	: Should I issue this book to you?
+student	: Yes sir.
+librarian	: Give your id card to me.
+student	: Ok sir, take my id card.
+librarian	: I am giving the book. According to rules, you should return the book in 1 month or else you have to pay the fine.
+student	: Ok sir, I will return the book.
+student	: thank you.
+
+45
+
+Indirect##
+
+issue
+------------------
+
+student	: hello sir.
+librarian	: hello.
+student	: I must read this book.
+librarian	: Should I issue this book to you?
+student	: Yes sir.
+librarian	: Give your id card to me.
+student	: Ok sir, take my id card.
+librarian	: I am giving the book. According to rules, you should return the book in 1 month or else you have to pay the fine.
+student	: Ok sir, I will return the book.
+student	: thank you.
+
+46
+
+Indirect##
+
+issue
+------------------
+
+student	: How are you sir?
+librarian	: I am fine. Thank you.
+student	: I must take this book.
+librarian	: Should I issue this book to you?
+student	: Yes sir.
+librarian	: Give your id card to me.
+student	: Ok sir, take my id card.
+librarian	: I am giving the book. According to rules, you should return the book in 1 month or else you have to pay the fine.
+student	: Ok sir, I will return the book.
+student	: thank you.
+
+47
+
+Indirect##
+
+issue
+------------------
+
+student	: How are you sir?
+librarian	: I am fine. Thank you.
+student	: Can I take this book?
+librarian	: Should I issue this book to you?
+student	: Yes sir.
+librarian	: Give your id card to me.
+student	: Ok sir, take my id card.
+librarian	: I am giving the book. According to rules, you should return the book in 1 month or else you have to pay the fine.
+student	: Ok sir, I will return the book.
+student	: thank you.
+
+48
+
+Indirect##
+
+issue
+------------------
+
+student	: How are you sir?
+librarian	: I am fine. Thank you. It's been a long time since I saw you
+student	: I should read this book by tomorrow.
+librarian	: Should I issue this book to you?
+student	: Yes sir.
+librarian	: Give your id card to me.
+student	: Ok sir, take my id card.
+librarian	: I am giving the book. According to rules, you should return the book in 1 month or else you have to pay the fine.
+student	: Ok sir, I will return the book.
+student	: thank you.
+
+49
+
+Indirect##
+
+issue
+------------------
+
+student	: hello sir.
+librarian	: hello.
+student	: You said that you will issue this book to me.
+librarian	: Should I issue this book to you?
+student	: Yes sir.
+librarian	: Give your id card to me.
+student	: Ok sir, take my id card.
+librarian	: I am giving the book. According to rules, you should return the book in 1 month or else you have to pay the fine.
+student	: Ok sir, I will return the book.
+student	: thank you.
+
+50
+
+Indirect##
+
+issue
+------------------
+
+student	: hello sir.
+librarian	: hello.
+student	: You told that you will give this book to me.
+librarian	: Should I issue this book to you?
+student	: Yes sir.
+librarian	: Give your id card to me.
+student	: Ok sir, take my id card.
+librarian	: I am giving the book. According to rules, you should return the book in 1 month or else you have to pay the fine.
+student	: Ok sir, I will return the book.
+student	: thank you.
+
+51
+
+Direct##
+
+issue
+------------------
+
+student	: How are you sir?
+librarian	: I am fine. Thank you.
+student	: you told that you will issue this book to me.
+librarian	: Give your id card to me.
+student	: Ok sir, take my id card.
+librarian	: I am giving the book. According to rules, you should return the book in 1 month or else you have to pay the fine.
+student	: Ok sir, I will return the book.
+student	: thank you.
+
+52
+
+student	: hello sir.
+librarian	: hello.
+student	: My lecturer told me to follow this book.
+librarian	: Give your id card to me.
+student	: Ok sir, take my id card.
+librarian	: I am giving the book. According to rules, you should return the book in 1 month or else you have to pay the fine.
+student	: Ok sir, I will return the book.
+student	: thank you.
+
+53
+
+student	: How are you sir?
+librarian	: I am fine. Thank you.
+student	: I can read this book only if you give it to me.
+librarian	: Give your id card to me.
+student	: Ok sir, take my id card.
+librarian	: I am giving the book. According to rules, you should return the book in 1 month or else you have to pay the fine.
+student	: Ok sir, I will return the book.
+student	: thank you.
+
+54
+
+student	: How are you sir?
+librarian	: I am fine. Thank you.
+student	: I am in urgent need of this book.
+librarian	: Should I issue this book to you?
+student	: Yes sir.
+librarian	: Give your id card to me.
+student	: Ok sir, take my id card.
+librarian	: I am giving the book. According to rules, you should return the book in 1 month or else you have to pay the fine.
+student	: Ok sir, I will return the book.
+student	: thank you.
+
+55
+
+student	: How are you sir?
+librarian	: I am fine. Thank you. It's been a long time since I saw you
+student	: You said that, you do not have any objection to giving me this book.
+librarian	: Should I issue this book to you?
+student	: Yes sir.
+librarian	: Give your id card to me.
+student	: Ok sir, take my id card.
+librarian	: I am giving the book. According to rules, you should return the book in 1 month or else you have to pay the fine.
+student	: Ok sir, I will return the book.
+student	: thank you.
+
+56
+
+student	: hello sir.
+librarian	: hello.
+student	: You said that, you do not have any objection to giving me this book.
+librarian	: Should I issue this book to you?
+student	: Yes sir.
+librarian	: Give your id card to me.
+student	: Ok sir, take my id card.
+librarian	: I am giving the book. According to rules, you should return the book in 1 month or else you have to pay the fine.
+student	: Ok sir, I will return the book.
+student	: thank you.
+
+
+57
+
+Indirect##
+
+issue
+------------------
+
+student	: hello sir.
+librarian	: hello.
+student	: I am in need of this book.
+librarian	: Should I issue this book to you?
+student	: Yes sir.
+librarian	: Give your id card to me.
+student	: Ok sir, take my id card.
+librarian	: I am giving the book. According to rules, you should return the book in 1 month or else you have to pay the fine.
+student	: Ok sir, I will return the book.
+student	: thank you.
+
+58
+
+Indirect##
+
+issue
+------------------
+
+student	: How are you sir?
+librarian	: I am fine. Thank you.
+student	: Tomorrow's essay should be written from this book only.
+librarian	: Should I issue this book to you?
+student	: Yes sir.
+librarian	: Give your id card to me.
+student	: Ok sir, take my id card.
+librarian	: I am giving the book. According to rules, you should return the book in 1 month or else you have to pay the fine.
+student	: Ok sir, I will return the book.
+student	: thank you.
+
+59
+
+Indirect##
+
+issue
+------------------
+
+student	: How are you sir?
+librarian	: I am fine. Thank you.
+student	: They said that, tomorrow's essay should be written from this book.
+librarian	: Should I issue this book to you?
+student	: Yes sir.
+librarian	: Give your id card to me.
+student	: Ok sir, take my id card.
+librarian	: I am giving the book. According to rules, you should return the book in 1 month or else you have to pay the fine.
+student	: Ok sir, I will return the book.
+student	: thank you.
+
+60
+
+Indirect##
+
+issue
+------------------
+
+student	: How are you sir?
+librarian	: I am fine. Thank you. It's been a long time since I saw you
+student	: The questions will be asked from this book only.
+librarian	: Should I issue this book to you?
+student	: Yes sir.
+librarian	: Give your id card to me.
+student	: Ok sir, take my id card.
+librarian	: I am giving the book. According to rules, you should return the book in 1 month or else you have to pay the fine.
+student	: Ok sir, I will return the book.
+student	: thank you.
+
+61
+
+Indirect##
+
+issue
+------------------
+
+student	: hello sir.
+librarian	: hello.
+student	: If i read this book, then i can write tomorrow's exam.
+librarian	: Should I issue this book to you?
+student	: Yes sir.
+librarian	: Give your id card to me.
+student	: Ok sir, take my id card.
+librarian	: I am giving the book. According to rules, you should return the book in 1 month or else you have to pay the fine.
+student	: Ok sir, I will return the book.
+student	: thank you.
+
+62
+
+Indirect##
+
+issue
+------------------
+
+student	: hello sir.
+librarian	: hello.
+student	: Give me this book, only if i didn't exceed the book limit. 
+librarian	: Should I issue this book to you?
+student	: Yes sir.
+librarian	: Give your id card to me.
+student	: Ok sir, take my id card.
+librarian	: I am giving the book. According to rules, you should return the book in 1 month or else you have to pay the fine.
+student	: Ok sir, I will return the book.
+student	: thank you.
+
+63
+
+Direct##
+
+issue
+------------------
+
+student	: How are you sir?
+librarian	: I am fine. Thank you.
+student	: If my account is free, then I can take this book.
+librarian	: Give your id card to me.
+student	: Ok sir, take my id card.
+librarian	: I am giving the book. According to rules, you should return the book in 1 month or else you have to pay the fine.
+student	: Ok sir, I will return the book.
+student	: thank you.
+
+64
+
+student	: hello sir.
+librarian	: hello.
+student	: Will you give me this book now?
+librarian	: Give your id card to me.
+student	: Ok sir, take my id card.
+librarian	: I am giving the book. According to rules, you should return the book in 1 month or else you have to pay the fine.
+student	: Ok sir, I will return the book.
+student	: thank you.
+
+65
+
+student	: How are you sir?
+librarian	: I am fine. Thank you.
+student	: Tomorrow's exam questions will be coming from the topics of this book only.
+librarian	: Give your id card to me.
+student	: Ok sir, take my id card.
+librarian	: I am giving the book. According to rules, you should return the book in 1 month or else you have to pay the fine.
+student	: Ok sir, I will return the book.
+student	: thank you.
+
+66
+
+student	: How are you sir?
+librarian	: I am fine. Thank you.
+student	: Issue this book to me.
+librarian	: Should I issue this book to you?
+student	: Yes sir.
+librarian	: Give your id card to me.
+student	: Ok sir, take my id card.
+librarian	: I am giving the book. According to rules, you should return the book in 1 month or else you have to pay the fine.
+student	: Ok sir, I will return the book.
+student	: thank you.
+
+67
+
+student	: How are you sir?
+librarian	: I am fine. Thank you. It's been a long time since I saw you
+student	: I should take this book.
+librarian	: Should I issue this book to you?
+student	: Yes sir.
+librarian	: Give your id card to me.
+student	: Ok sir, take my id card.
+librarian	: I am giving the book. According to rules, you should return the book in 1 month or else you have to pay the fine.
+student	: Ok sir, I will return the book.
+student	: thank you.
+
+68
+
+student	: hello sir.
+librarian	: hello.
+student	: Will you give me this book?
+librarian	: Should I issue this book to you?
+student	: Yes sir.
+librarian	: Give your id card to me.
+student	: Ok sir, take my id card.
+librarian	: I am giving the book. According to rules, you should return the book in 1 month or else you have to pay the fine.
+student	: Ok sir, I will return the book.
+student	: thank you.
+
+69
+
+student	: hello sir.
+librarian	: hello.
+student	: My main purpose of coming here is to issue to this book.
+librarian	: Give your id card to me.
+student	: Ok sir, take my id card.
+librarian	: I am giving the book. According to rules, you should return the book in 1 month or else you have to pay the fine.
+student	: Ok sir, I will return the book.
+student	: thank you.
+
+70
+
+student	: How are you sir?
+librarian	: I am fine. Thank you.
+student	: This book is very important to me.
+librarian	: Give your id card to me.
+student	: Ok sir, take my id card.
+librarian	: I am giving the book. According to rules, you should return the book in 1 month or else you have to pay the fine.
+student	: Ok sir, I will return the book.
+student	: thank you.
+
+71
+
+student	: How are you sir?
+librarian	: I am fine. Thank you.
+student	: I must take this book.
+librarian	: Should I issue this book to you?
+student	: Yes sir.
+librarian	: Give your id card to me.
+student	: Ok sir, take my id card.
+librarian	: I am giving the book. According to rules, you should return the book in 1 month or else you have to pay the fine.
+student	: Ok sir, I will return the book.
+student	: thank you.
+
+72
+
+student	: How are you sir?
+librarian	: I am fine. Thank you. It's been a long time since I saw you
+student	: I should take this book.
+librarian	: Should I issue this book to you?
+student	: Yes sir.
+librarian	: Give your id card to me.
+student	: Ok sir, take my id card.
+librarian	: I am giving the book. According to rules, you should return the book in 1 month or else you have to pay the fine.
+student	: Ok sir, I will return the book.
+student	: thank you.
+
+73
+
+student	: hello sir.
+librarian	: hello.
+student	: Give this book.
+librarian	: Should I issue this book to you?
+student	: Yes sir.
+librarian	: Give your id card to me.
+student	: Ok sir, take my id card.
+librarian	: I am giving the book. According to rules, you should return the book in 1 month or else you have to pay the fine.
+student	: Ok sir, I will return the book.
+student	: thank you.
+

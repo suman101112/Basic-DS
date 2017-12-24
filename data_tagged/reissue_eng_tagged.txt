@@ -1,0 +1,959 @@
+1
+
+Direct##
+
+Reissue
+------------------
+
+Student	: Hello sir. -> GREETINGS
+Librarian	: Hello. -> GREETINGS_REPLY
+Student	: I want to take this book once again. -> REISSUE
+Librarian	: Give your id card to me. -> ACTION_DIR
+Student	: Ok sir, take my id card. -> COMMIT
+Librarian	: I am extending the book's due date. The due date will end in a month. Then you should return it. -> REISSUE_ASSERT
+Student	: Ok sir, i will bring the book in a month. -> ACCEPT_ACKNOWLEDGE
+Student	: Thank you. -> GREETINGS_EOC
+
+2
+
+Direct##
+
+
+Reissue
+------------------
+
+Student	: Hello sir. -> GREETINGS
+Librarian	: Hello. -> GREETINGS_REPLY
+Student	: I want to reissue this book. -> REISSUE
+Librarian	: Give your id card to me. -> ACTION_DIR
+Student	: Ok sir, take my id card. -> COMMIT
+Librarian	: I am extending the book's due date. The due date will end in a month. Then you should return it. -> REISSUE_ASSERT
+Student	: Ok sir, i will bring the book in a month. -> ACCEPT_ACKNOWLEDGE
+Student	: Thank you. -> GREETINGS_EOC
+
+3
+
+Direct##
+
+Reissue
+------------------
+
+Student	: How are you sir? -> GREETINGS
+Librarian	: fine. -> GREETINGS_REPLY
+Student	: I am thinking to reissue this book. -> REISSUE
+Librarian	: Give your id card to me. -> ACTION_DIR
+Student	: Ok sir, take my id card. -> COMMIT
+Librarian	: I am extending the book's due date. The due date will end in a month. Then you should return it. -> REISSUE_ASSERT
+Student	: Ok sir, i will bring the book in a month. -> ACCEPT_ACKNOWLEDGE
+Student	: Thank you. -> GREETINGS_EOC
+
+4
+
+Direct##
+
+Reissue
+------------------
+
+Student	: Hello sir. -> GREETINGS
+Librarian	: Hello. -> GREETINGS_REPLY
+Student	: I want to take this book once again. -> REISSUE
+Librarian	: Give your id card to me. -> ACTION_DIR
+Student	: Ok sir, take my id card. -> COMMIT
+Librarian	: I am extending the book's due date. The due date will end in a month. Then you should return it. -> REISSUE_ASSERT
+Student	: Ok sir, i will bring the book in a month. -> ACCEPT_ACKNOWLEDGE
+Student	: Thank you. -> GREETINGS_EOC
+
+5
+
+Direct##
+
+Reissue
+------------------
+
+Student	: How are you sir? -> GREETINGS
+Librarian	: fine. -> GREETINGS_REPLY
+Student	: I didn't finish this book yet. -> REISSUE
+Librarian	: Do you think of reissuing this book? -> REISSUE_INFO_REQUEST
+Student	: Yes sir. -> ACCEPT
+Librarian	: Give your id card to me. -> ACTION_DIR
+Student	: Ok sir, take my id card. -> COMMIT
+Librarian	: I am extending the book's due date. The due date will end in a month. Then you should return it. -> REISSUE_ASSERT
+Student	: Ok sir, i will bring the book in a month. -> ACCEPT_ACKNOWLEDGE
+Student	: Thank you. -> GREETINGS_EOC
+
+6
+
+Direct##
+
+Reissue
+------------------
+
+Student	: How are you sir? -> GREETINGS
+Librarian	: fine. It's been a long time since i saw you. -> GREETINGS_REPLY
+Student	: I am still reading this book. -> REISSUE
+Librarian	: Do you think of reissuing this book? -> REISSUE_INFO_REQUEST
+Student	: Yes sir. -> ACCEPT
+Librarian	: Give your id card to me. -> ACTION_DIR
+Student	: Ok sir, take my id card. -> COMMIT
+Librarian	: I am extending the book's due date. The due date will end in a month. Then you should return it. -> REISSUE_ASSERT
+Student	: Ok sir, i will bring the book in a month. -> ACCEPT_ACKNOWLEDGE
+Student	: Thank you. -> GREETINGS_EOC
+
+7
+
+Direct##
+
+Reissue
+------------------
+
+Student	: Hello sir. -> GREETINGS
+Librarian	: Hello. -> GREETINGS_REPLY
+Student	: I want to read more of this book. -> REISSUE
+Librarian	: Do you think of reissuing this book? -> REISSUE_INFO_REQUEST
+Student	: Yes sir. -> ACCEPT
+Librarian	: Give your id card to me. -> ACTION_DIR
+Student	: Ok sir, take my card. -> COMMIT
+Librarian	: I am extending the book's due date. The due date will end in a month. Then you should return it. -> REISSUE_ASSERT
+Student	: Ok sir, i will bring the book in a month. -> ACCEPT_ACKNOWLEDGE
+Student	: Thank you. -> GREETINGS_EOC
+
+8
+
+Direct##
+
+Reissue
+------------------
+
+Student	: How are you sir? -> GREETINGS
+Librarian	: fine. -> GREETINGS_REPLY
+Student	: I want to read this book again. -> REISSUE
+Librarian	: Do you think of reissuing this book? -> REISSUE_INFO_REQUEST
+Student	: Yes sir. -> ACCEPT
+Librarian	: Give your id card to me. -> ACTION_DIR
+Student	: Ok sir, take my id card. -> COMMIT
+Librarian	: I am extending the book's due date. The due date will end in a month. Then you should return it. -> REISSUE_ASSERT
+Student	: Ok sir, i will bring the book in a month. -> ACCEPT_ACKNOWLEDGE
+Student	: Thank you. -> GREETINGS_EOC
+
+9
+
+Direct##
+
+Reissue
+------------------
+
+Student	: Hello sir. -> GREETINGS
+Librarian	: Hello. -> GREETINGS_REPLY
+Student	: I didn't complete this book yet. -> REISSUE
+Librarian	: Do you think of reissuing this book? -> REISSUE_INFO_REQUEST
+Student	: Yes sir. -> ACCEPT
+Librarian	: Give your id card to me. -> ACTION_DIR
+Student	: Ok sir, take my id card. -> COMMIT
+Librarian	: I am extending the book's due date. The due date will end in a month. Then you should return it. -> REISSUE_ASSERT
+Student	: Ok sir, i will bring the book in a month. -> ACCEPT_ACKNOWLEDGE
+Student	: Thank you. -> GREETINGS_EOC
+
+10
+
+Direct##
+
+Reissue
+------------------
+
+Student	: How are you sir? -> GREETINGS
+Librarian	: fine. -> GREETINGS_REPLY
+Student	: I didn't complete this book. -> REISSUE
+Librarian	: Do you think of reissuing this book? -> REISSUE_INFO_REQUEST
+Student	: Yes sir. -> ACCEPT
+Librarian	: Give your id card to me. -> ACTION_DIR
+Student	: Ok sir, take my id card. -> COMMIT
+Librarian	: I am extending the book's due date. The due date will end in a month. Then you should return it. -> REISSUE_ASSERT
+Student	: Ok sir, i will bring the book in a month. -> ACCEPT_ACKNOWLEDGE
+Student	: Thank you. -> GREETINGS_EOC
+
+11
+
+Direct##
+
+Reissue
+------------------
+
+Student	: How are you sir? -> GREETINGS
+Librarian	: fine. -> GREETINGS_REPLY
+Student	: I want to read this book once again. -> REISSUE
+Librarian	: Do you think of reissuing this book? -> REISSUE_INFO_REQUEST
+Student	: Yes sir. -> ACCEPT
+Librarian	: Give your id card to me. -> ACTION_DIR
+Student	: Ok sir, take my id card. -> COMMIT
+Librarian	: I am extending the book's due date. The due date will end in a month. Then you should return it. -> REISSUE_ASSERT
+Student	: Ok sir, i will bring the book in a month. -> ACCEPT_ACKNOWLEDGE
+Student	: Thank you. -> GREETINGS_EOC
+
+12
+
+Direct##
+
+Reissue
+------------------
+
+Student	: How are you sir? -> GREETINGS
+Librarian	: fine. It's been a lot of days, since i saw you. -> GREETINGS_REPLY
+Student	: This book will be useful to me in future. -> REISSUE
+Librarian	: Do you think of reissuing this book? -> REISSUE_INFO_REQUEST
+Student	: Yes sir. -> ACCEPT
+Librarian	: Give your id card to me. -> ACTION_DIR
+Student	: Ok sir, take my id card. -> COMMIT
+Librarian	: I am extending the book's due date. The due date will end in a month. Then you should return it. -> REISSUE_ASSERT
+Student	: Ok sir, i will bring the book in a month. -> ACCEPT_ACKNOWLEDGE
+Student	: Thank you. -> GREETINGS_EOC
+
+13
+
+Indirect##
+
+Reissue
+------------------
+
+Student	: How are you sir? -> GREETINGS
+Librarian	: fine. It's been a lot of days, since i saw you. -> GREETINGS_REPLY
+Student	: I came here to reissue this book. -> REISSUE
+Librarian	: Give your id card to me. -> ACTION_DIR
+Student	: Ok sir, take my id card. -> COMMIT
+Librarian	: I am extending the book's due date. The due date will end in a month. Then you should return it. -> REISSUE_ASSERT
+Student	: Ok sir, i will bring the book in a month. -> ACCEPT_ACKNOWLEDGE
+Student	: Thank you. -> GREETINGS_EOC
+
+14
+
+Indirect##
+
+Reissue
+------------------
+
+Student	: Hello sir. -> GREETINGS
+Librarian	: Hello. -> GREETINGS_REPLY
+Student	: After reading the preface, I am more interested in this book. -> REISSUE
+Librarian	: Do you think of reissuing this book? -> REISSUE_INFO_REQUEST
+Student	: Yes sir. -> ACCEPT
+Librarian	: Give your id card to me. -> ACTION_DIR
+Student	: Ok sir, take my id card. -> COMMIT
+Librarian	: I am extending the book's due date. The due date will end in a month. Then you should return it. -> REISSUE_ASSERT
+Student	: Ok sir, i will bring the book in a month. -> ACCEPT_ACKNOWLEDGE
+Student	: Thank you. -> GREETINGS_EOC
+
+15
+
+Indirect##
+
+Reissue
+------------------
+
+Student	: How are you sir? -> GREETINGS
+Librarian	: fine. -> GREETINGS_REPLY
+Student	: Please reissue this book to me. -> REISSUE
+Librarian	: Give your id card to me. -> ACTION_DIR
+Student	: Ok sir, take my id card. -> COMMIT
+Librarian	: I am extending the book's due date. The due date will end in a month. Then you should return it. -> REISSUE_ASSERT
+Student	: Ok sir, i will bring the book in a month. -> ACCEPT_ACKNOWLEDGE
+Student	: Thank you. -> GREETINGS_EOC
+
+16
+
+Indirect##
+
+Reissue
+------------------
+
+Student	: How are you sir? -> GREETINGS
+Librarian	: fine. It's been a lot of days, since i saw you. -> GREETINGS_REPLY
+Student	: Please increase this book's due date. -> REISSUE
+Librarian	: Do you think of reissuing this book? -> REISSUE_INFO_REQUEST
+Student	: Yes sir. -> ACCEPT
+Librarian	: Give your id card to me. -> ACTION_DIR
+Student	: Ok sir, take my id card. -> COMMIT
+Librarian	: I am extending the book's due date. The due date will end in a month. Then you should return it. -> REISSUE_ASSERT
+Student	: Ok sir, i will bring the book in a month. -> ACCEPT_ACKNOWLEDGE
+Student	: Thank you. -> GREETINGS_EOC
+
+17
+
+Indirect##
+
+Reissue
+------------------
+
+Student	: Hello sir. -> GREETINGS
+Librarian	: Hello. -> GREETINGS_REPLY
+Student	: There are much more interesting topics in this bookThere are more important topics in this book. that I have to read. -> REISSUE
+Librarian	: Do you think of reissuing this book? -> REISSUE_INFO_REQUEST
+Student	: Yes sir. -> ACCEPT
+Librarian	: Give your id card to me. -> ACTION_DIR
+Student	: Ok sir, take my id card. -> COMMIT
+Librarian	: I am extending the book's due date. The due date will end in a month. Then you should return it. -> REISSUE_ASSERT
+Student	: Ok sir, i will bring the book in a month. -> ACCEPT_ACKNOWLEDGE
+Student	: Thank you. -> GREETINGS_EOC
+
+18
+
+Indirect##
+
+Reissue
+------------------
+
+Student	: How are you sir? -> GREETINGS
+Librarian	: fine. -> GREETINGS_REPLY
+Student	: There are more important topics in this book that I have to read. -> REISSUE
+Librarian	: Do you think of reissuing this book? -> REISSUE_INFO_REQUEST
+Student	: Yes sir. -> ACCEPT
+Librarian	: Give your id card to me. -> ACTION_DIR
+Student	: Ok sir, take my id card. -> COMMIT
+Librarian	: I am extending the book's due date. The due date will end in a month. Then you should return it. -> REISSUE_ASSERT
+Student	: Ok sir, i will bring the book in a month. -> ACCEPT_ACKNOWLEDGE
+Student	: Thank you. -> GREETINGS_EOC
+
+19
+
+Indirect##
+
+Reissue
+------------------
+
+Student	: How are you sir? -> GREETINGS
+Librarian	: fine. -> GREETINGS_REPLY
+Student	: There are more important topics in this book. -> REISSUE
+Librarian	: Do you think of reissuing this book? -> REISSUE_INFO_REQUEST
+Student	: Yes sir. -> ACCEPT
+Librarian	: Give your id card to me. -> ACTION_DIR
+Student	: Ok sir, take my id card. -> COMMIT
+Librarian	: I am extending the book's due date. The due date will end in a month. Then you should return it. -> REISSUE_ASSERT
+Student	: Ok sir, i will bring the book in a month. -> ACCEPT_ACKNOWLEDGE
+Student	: Thank you. -> GREETINGS_EOC
+
+20
+
+Indirect##
+
+Reissue
+------------------
+
+Student	: How are you sir? -> GREETINGS
+Librarian	: fine. It's been a lot of days, since i saw you. -> GREETINGS_REPLY
+Student	: This book is not available anywhere else. -> REISSUE
+Librarian	: Do you think of reissuing this book? -> REISSUE_INFO_REQUEST
+Student	: Yes sir. -> ACCEPT
+Librarian	: Give your id card to me. -> ACTION_DIR
+Student	: Ok sir, take my id card. -> COMMIT
+Librarian	: I am extending the book's due date. The due date will end in a month. Then you should return it. -> REISSUE_ASSERT
+Student	: Ok sir, i will bring the book in a month. -> ACCEPT_ACKNOWLEDGE
+Student	: Thank you. -> GREETINGS_EOC
+
+21
+
+Direct##
+
+Reissue
+------------------
+
+Student	: Hello sir. -> GREETINGS
+Librarian	: Hello. -> GREETINGS_REPLY
+Student	: Give me this book again. -> REISSUE
+Librarian	: Give your id card to me. -> ACTION_DIR
+Student	: Ok sir, take my id card. -> COMMIT
+Librarian	: I am extending the book's due date. The due date will end in a month. Then you should return it. -> REISSUE_ASSERT
+Student	: Ok sir, i will bring the book in a month. -> ACCEPT_ACKNOWLEDGE
+Student	: Thank you. -> GREETINGS_EOC
+
+22
+
+Direct##
+
+
+Reissue
+------------------
+
+Student	: Hello sir. -> GREETINGS
+Librarian	: Hello. -> GREETINGS_REPLY
+Student	: I would like to read this book again. -> REISSUE
+Librarian	: Give your id card to me. -> ACTION_DIR
+Student	: Ok sir, take my id card. -> COMMIT
+Librarian	: I am extending the book's due date. The due date will end in a month. Then you should return it. -> REISSUE_ASSERT
+Student	: Ok sir, i will bring the book in a month. -> ACCEPT_ACKNOWLEDGE
+Student	: Thank you. -> GREETINGS_EOC
+
+23
+
+Direct##
+
+Reissue
+------------------
+
+Student	: How are you sir? -> GREETINGS
+Librarian	: fine. -> GREETINGS_REPLY
+Student	: Give me this book again. -> REISSUE
+Librarian	: Give your id card to me. -> ACTION_DIR
+Student	: Ok sir, take my id card. -> COMMIT
+Librarian	: I am extending the book's due date. The due date will end in a month. Then you should return it. -> REISSUE_ASSERT
+Student	: Ok sir, i will bring the book in a month. -> ACCEPT_ACKNOWLEDGE
+Student	: Thank you. -> GREETINGS_EOC
+
+24
+
+Direct##
+
+Reissue
+------------------
+
+Student	: Hello sir. -> GREETINGS
+Librarian	: Hello. -> GREETINGS_REPLY
+Student	: Give me this book once again. -> REISSUE
+Librarian	: Give your id card to me. -> ACTION_DIR
+Student	: Ok sir, take my id card. -> COMMIT
+Librarian	: I am extending the book's due date. The due date will end in a month. Then you should return it. -> REISSUE_ASSERT
+Student	: Ok sir, i will bring the book in a month. -> ACCEPT_ACKNOWLEDGE
+Student	: Thank you. -> GREETINGS_EOC
+
+25
+
+Direct##
+
+Reissue
+------------------
+
+Student	: How are you sir? -> GREETINGS
+Librarian	: fine. -> GREETINGS_REPLY
+Student	: Will you give me this book once again? -> REISSUE
+Librarian	: Do you think of reissuing this book? -> REISSUE_INFO_REQUEST
+Student	: Yes sir. -> ACCEPT
+Librarian	: Give your id card to me. -> ACTION_DIR
+Student	: Ok sir, take my id card. -> COMMIT
+Librarian	: I am extending the book's due date. The due date will end in a month. Then you should return it. -> REISSUE_ASSERT
+Student	: Ok sir, i will bring the book in a month. -> ACCEPT_ACKNOWLEDGE
+Student	: Thank you. -> GREETINGS_EOC
+
+26
+
+Direct##
+
+Reissue
+------------------
+
+Student	: How are you sir? -> GREETINGS
+Librarian	: fine. It's been a long time since i saw you. -> GREETINGS_REPLY
+Student	: Can i take this book? -> REISSUE
+Librarian	: Do you think of reissuing this book? -> REISSUE_INFO_REQUEST
+Student	: Yes sir. -> ACCEPT
+Librarian	: Give your id card to me. -> ACTION_DIR
+Student	: Ok sir, take my id card. -> COMMIT
+Librarian	: I am extending the book's due date. The due date will end in a month. Then you should return it. -> REISSUE_ASSERT
+Student	: Ok sir, i will bring the book in a month. -> ACCEPT_ACKNOWLEDGE
+Student	: Thank you. -> GREETINGS_EOC
+
+27
+
+Direct##
+
+Reissue
+------------------
+
+Student	: Hello sir. -> GREETINGS
+Librarian	: Hello. -> GREETINGS_REPLY
+Student	: I want to read this book again. -> REISSUE
+Librarian	: Do you think of reissuing this book? -> REISSUE_INFO_REQUEST
+Student	: Yes sir. -> ACCEPT
+Librarian	: Give your id card to me. -> ACTION_DIR
+Student	: Ok sir, take my card. -> COMMIT
+Librarian	: I am extending the book's due date. The due date will end in a month. Then you should return it. -> REISSUE_ASSERT
+Student	: Ok sir, i will bring the book in a month. -> ACCEPT_ACKNOWLEDGE
+Student	: Thank you. -> GREETINGS_EOC
+
+28
+
+Direct##
+
+Reissue
+------------------
+
+Student	: How are you sir? -> GREETINGS
+Librarian	: fine. -> GREETINGS_REPLY
+Student	: I would like to take this book again. -> REISSUE
+Librarian	: Do you think of reissuing this book? -> REISSUE_INFO_REQUEST
+Student	: Yes sir. -> ACCEPT
+Librarian	: Give your id card to me. -> ACTION_DIR
+Student	: Ok sir, take my id card. -> COMMIT
+Librarian	: I am extending the book's due date. The due date will end in a month. Then you should return it. -> REISSUE_ASSERT
+Student	: Ok sir, i will bring the book in a month. -> ACCEPT_ACKNOWLEDGE
+Student	: Thank you. -> GREETINGS_EOC
+
+29
+
+Direct##
+
+Reissue
+------------------
+
+Student	: Hello sir. -> GREETINGS
+Librarian	: Hello. -> GREETINGS_REPLY
+Student	: Give this book again. -> REISSUE
+Librarian	: Do you think of reissuing this book? -> REISSUE_INFO_REQUEST
+Student	: Yes sir. -> ACCEPT
+Librarian	: Give your id card to me. -> ACTION_DIR
+Student	: Ok sir, take my id card. -> COMMIT
+Librarian	: I am extending the book's due date. The due date will end in a month. Then you should return it. -> REISSUE_ASSERT
+Student	: Ok sir, i will bring the book in a month. -> ACCEPT_ACKNOWLEDGE
+Student	: Thank you. -> GREETINGS_EOC
+
+30
+
+Direct##
+
+Reissue
+------------------
+
+Student	: How are you sir? -> GREETINGS
+Librarian	: fine. -> GREETINGS_REPLY
+Student	: I will take this book again. -> REISSUE
+Librarian	: Do you think of reissuing this book? -> REISSUE_INFO_REQUEST
+Student	: Yes sir. -> ACCEPT
+Librarian	: Give your id card to me. -> ACTION_DIR
+Student	: Ok sir, take my id card. -> COMMIT
+Librarian	: I am extending the book's due date. The due date will end in a month. Then you should return it. -> REISSUE_ASSERT
+Student	: Ok sir, i will bring the book in a month. -> ACCEPT_ACKNOWLEDGE
+Student	: Thank you. -> GREETINGS_EOC
+
+31
+
+Direct##
+
+Reissue
+------------------
+
+Student	: How are you sir? -> GREETINGS
+Librarian	: fine. -> GREETINGS_REPLY
+Student	: I want to read this book again and again. -> REISSUE
+Librarian	: Do you think of reissuing this book? -> REISSUE_INFO_REQUEST
+Student	: Yes sir. -> ACCEPT
+Librarian	: Give your id card to me. -> ACTION_DIR
+Student	: Ok sir, take my id card. -> COMMIT
+Librarian	: I am extending the book's due date. The due date will end in a month. Then you should return it. -> REISSUE_ASSERT
+Student	: Ok sir, i will bring the book in a month. -> ACCEPT_ACKNOWLEDGE
+Student	: Thank you. -> GREETINGS_EOC
+
+32
+
+Direct##
+
+Reissue
+------------------
+
+Student	: How are you sir? -> GREETINGS
+Librarian	: fine. It's been a lot of days, since i saw you. -> GREETINGS_REPLY
+Student	: I will come tomorrow to take this book again. -> REISSUE
+Librarian	: Do you think of reissuing this book? -> REISSUE_INFO_REQUEST
+Student	: Yes sir. -> ACCEPT
+Librarian	: Give your id card to me. -> ACTION_DIR
+Student	: Ok sir, take my id card. -> COMMIT
+Librarian	: I am extending the book's due date. The due date will end in a month. Then you should return it. -> REISSUE_ASSERT
+Student	: Ok sir, i will bring the book in a month. -> ACCEPT_ACKNOWLEDGE
+Student	: Thank you. -> GREETINGS_EOC
+
+33
+
+Indirect##
+
+Reissue
+------------------
+
+Student	: How are you sir? -> GREETINGS
+Librarian	: fine. It's been a lot of days, since i saw you. -> GREETINGS_REPLY
+Student	: Give me this book once again tomorrow. -> REISSUE
+Librarian	: Give your id card to me. -> ACTION_DIR
+Student	: Ok sir, take my id card. -> COMMIT
+Librarian	: I am extending the book's due date. The due date will end in a month. Then you should return it. -> REISSUE_ASSERT
+Student	: Ok sir, i will bring the book in a month. -> ACCEPT_ACKNOWLEDGE
+Student	: Thank you. -> GREETINGS_EOC
+
+34
+
+Indirect##
+
+Reissue
+------------------
+
+Student	: Hello sir. -> GREETINGS
+Librarian	: Hello. -> GREETINGS_REPLY
+Student	: You said that you will reissue me this book. -> REISSUE
+Librarian	: Do you think of reissuing this book? -> REISSUE_INFO_REQUEST
+Student	: Yes sir. -> ACCEPT
+Librarian	: Give your id card to me. -> ACTION_DIR
+Student	: Ok sir, take my id card. -> COMMIT
+Librarian	: I am extending the book's due date. The due date will end in a month. Then you should return it. -> REISSUE_ASSERT
+Student	: Ok sir, i will bring the book in a month. -> ACCEPT_ACKNOWLEDGE
+Student	: Thank you. -> GREETINGS_EOC
+
+35
+
+Indirect##
+
+Reissue
+------------------
+
+Student	: How are you sir? -> GREETINGS
+Librarian	: fine. -> GREETINGS_REPLY
+Student	: This book's due date will be completed by tomorrow. I will come again tomorrow to reissue this book. -> REISSUE
+Librarian	: Give your id card to me. -> ACTION_DIR
+Student	: Ok sir, take my id card. -> COMMIT
+Librarian	: I am extending the book's due date. The due date will end in a month. Then you should return it. -> REISSUE_ASSERT
+Student	: Ok sir, i will bring the book in a month. -> ACCEPT_ACKNOWLEDGE
+Student	: Thank you. -> GREETINGS_EOC
+
+36
+
+Indirect##
+
+Reissue
+------------------
+
+Student	: How are you sir? -> GREETINGS
+Librarian	: fine. It's been a lot of days, since i saw you. -> GREETINGS_REPLY
+Student	: You said that you will reissue me this book. -> REISSUE
+Librarian	: Do you think of reissuing this book? -> REISSUE_INFO_REQUEST
+Student	: Yes sir. -> ACCEPT
+Librarian	: Give your id card to me. -> ACTION_DIR
+Student	: Ok sir, take my id card. -> COMMIT
+Librarian	: I am extending the book's due date. The due date will end in a month. Then you should return it. -> REISSUE_ASSERT
+Student	: Ok sir, i will bring the book in a month. -> ACCEPT_ACKNOWLEDGE
+Student	: Thank you. -> GREETINGS_EOC
+
+37
+
+Indirect##
+
+Reissue
+------------------
+
+Student	: Hello sir. -> GREETINGS
+Librarian	: Hello. -> GREETINGS_REPLY
+Student	: I don't want to return this book by tomorrow. -> REISSUE
+Librarian	: Do you think of reissuing this book? -> REISSUE_INFO_REQUEST
+Student	: Yes sir. -> ACCEPT
+Librarian	: Give your id card to me. -> ACTION_DIR
+Student	: Ok sir, take my id card. -> COMMIT
+Librarian	: I am extending the book's due date. The due date will end in a month. Then you should return it. -> REISSUE_ASSERT
+Student	: Ok sir, i will bring the book in a month. -> ACCEPT_ACKNOWLEDGE
+Student	: Thank you. -> GREETINGS_EOC
+
+38
+
+Indirect##
+
+Reissue
+------------------
+
+Student	: How are you sir? -> GREETINGS
+Librarian	: fine. -> GREETINGS_REPLY
+Student	: I don't want the book's due date to end by tomorrow.  -> REISSUE
+Librarian	: Do you think of reissuing this book? -> REISSUE_INFO_REQUEST
+Student	: Yes sir. -> ACCEPT
+Librarian	: Give your id card to me. -> ACTION_DIR
+Student	: Ok sir, take my id card. -> COMMIT
+Librarian	: I am extending the book's due date. The due date will end in a month. Then you should return it. -> REISSUE_ASSERT
+Student	: Ok sir, i will bring the book in a month. -> ACCEPT_ACKNOWLEDGE
+Student	: Thank you. -> GREETINGS_EOC
+
+39
+
+Indirect##
+
+Reissue
+------------------
+
+Student	: How are you sir? -> GREETINGS
+Librarian	: fine. -> GREETINGS_REPLY
+Student	: I just started reading this book. I have to read much more. -> REISSUE
+Librarian	: Do you think of reissuing this book? -> REISSUE_INFO_REQUEST
+Student	: Yes sir. -> ACCEPT
+Librarian	: Give your id card to me. -> ACTION_DIR
+Student	: Ok sir, take my id card. -> COMMIT
+Librarian	: I am extending the book's due date. The due date will end in a month. Then you should return it. -> REISSUE_ASSERT
+Student	: Ok sir, i will bring the book in a month. -> ACCEPT_ACKNOWLEDGE
+Student	: Thank you. -> GREETINGS_EOC
+
+40
+
+Indirect##
+
+Reissue
+------------------
+
+Student	: How are you sir? -> GREETINGS
+Librarian	: fine. It's been a lot of days, since i saw you. -> GREETINGS_REPLY
+Student	: A lot of topics are there in this book that I have to read. -> REISSUE
+Librarian	: Do you think of reissuing this book? -> REISSUE_INFO_REQUEST
+Student	: Yes sir. -> ACCEPT
+Librarian	: Give your id card to me. -> ACTION_DIR
+Student	: Ok sir, take my id card. -> COMMIT
+Librarian	: I am extending the book's due date. The due date will end in a month. Then you should return it. -> REISSUE_ASSERT
+Student	: Ok sir, i will bring the book in a month. -> ACCEPT_ACKNOWLEDGE
+Student	: Thank you. -> GREETINGS_EOC
+
+41
+
+Direct##
+
+Reissue
+------------------
+
+Student	: Hello sir. -> GREETINGS
+Librarian	: Hello. -> GREETINGS_REPLY
+Student	: I have read the book till 6th chapter. I have to read it till 10th. -> REISSUE
+Librarian	: Give your id card to me. -> ACTION_DIR
+Student	: Ok sir, take my id card. -> COMMIT
+Librarian	: I am extending the book's due date. The due date will end in a month. Then you should return it. -> REISSUE_ASSERT
+Student	: Ok sir, i will bring the book in a month. -> ACCEPT_ACKNOWLEDGE
+Student	: Thank you. -> GREETINGS_EOC
+
+42
+
+Direct##
+
+
+Reissue
+------------------
+
+Student	: Hello sir. -> GREETINGS
+Librarian	: Hello. -> GREETINGS_REPLY
+Student	: I have read the book till 6th chapter. There are 4 more to go. -> REISSUE
+Librarian	: Give your id card to me. -> ACTION_DIR
+Student	: Ok sir, take my id card. -> COMMIT
+Librarian	: I am extending the book's due date. The due date will end in a month. Then you should return it. -> REISSUE_ASSERT
+Student	: Ok sir, i will bring the book in a month. -> ACCEPT_ACKNOWLEDGE
+Student	: Thank you. -> GREETINGS_EOC
+
+43
+
+Direct##
+
+Reissue
+------------------
+
+Student	: How are you sir? -> GREETINGS
+Librarian	: fine. -> GREETINGS_REPLY
+Student	: I tried searching for this book in market but couldn't find it. So I came here to reissue this book. -> REISSUE
+Librarian	: Give your id card to me. -> ACTION_DIR
+Student	: Ok sir, take my id card. -> COMMIT
+Librarian	: I am extending the book's due date. The due date will end in a month. Then you should return it. -> REISSUE_ASSERT
+Student	: Ok sir, i will bring the book in a month. -> ACCEPT_ACKNOWLEDGE
+Student	: Thank you. -> GREETINGS_EOC
+
+44
+
+Direct##
+
+Reissue
+------------------
+
+Student	: Hello sir. -> GREETINGS
+Librarian	: Hello. -> GREETINGS_REPLY
+Student	: Will you reissue me this book? -> REISSUE
+Librarian	: Give your id card to me. -> ACTION_DIR
+Student	: Ok sir, take my id card. -> COMMIT
+Librarian	: I am extending the book's due date. The due date will end in a month. Then you should return it. -> REISSUE_ASSERT
+Student	: Ok sir, i will bring the book in a month. -> ACCEPT_ACKNOWLEDGE
+Student	: Thank you. -> GREETINGS_EOC
+
+45
+
+Direct##
+
+Reissue
+------------------
+
+Student	: How are you sir? -> GREETINGS
+Librarian	: fine. -> GREETINGS_REPLY
+Student	: Exams are staring by tomorrow. I don't want to return this book. -> REISSUE
+Librarian	: Do you think of reissuing this book? -> REISSUE_INFO_REQUEST
+Student	: Yes sir. -> ACCEPT
+Librarian	: Give your id card to me. -> ACTION_DIR
+Student	: Ok sir, take my id card. -> COMMIT
+Librarian	: I am extending the book's due date. The due date will end in a month. Then you should return it. -> REISSUE_ASSERT
+Student	: Ok sir, i will bring the book in a month. -> ACCEPT_ACKNOWLEDGE
+Student	: Thank you. -> GREETINGS_EOC
+
+46
+
+Direct##
+
+Reissue
+------------------
+
+Student	: How are you sir? -> GREETINGS
+Librarian	: fine. It's been a long time since i saw you. -> GREETINGS_REPLY
+Student	: As you know, exams are staring by tomorrow. I don't want to return this book. -> REISSUE
+Librarian	: Do you think of reissuing this book? -> REISSUE_INFO_REQUEST
+Student	: Yes sir. -> ACCEPT
+Librarian	: Give your id card to me. -> ACTION_DIR
+Student	: Ok sir, take my id card. -> COMMIT
+Librarian	: I am extending the book's due date. The due date will end in a month. Then you should return it. -> REISSUE_ASSERT
+Student	: Ok sir, i will bring the book in a month. -> ACCEPT_ACKNOWLEDGE
+Student	: Thank you. -> GREETINGS_EOC
+
+47
+
+Direct##
+
+Reissue
+------------------
+
+Student	: Hello sir. -> GREETINGS
+Librarian	: Hello. -> GREETINGS_REPLY
+Student	: The topics in this book are very good and very well explained. -> REISSUE
+Librarian	: Do you think of reissuing this book? -> REISSUE_INFO_REQUEST
+Student	: Yes sir. -> ACCEPT
+Librarian	: Give your id card to me. -> ACTION_DIR
+Student	: Ok sir, take my card. -> COMMIT
+Librarian	: I am extending the book's due date. The due date will end in a month. Then you should return it. -> REISSUE_ASSERT
+Student	: Ok sir, i will bring the book in a month. -> ACCEPT_ACKNOWLEDGE
+Student	: Thank you. -> GREETINGS_EOC
+
+48
+
+Direct##
+
+Reissue
+------------------
+
+Student	: How are you sir? -> GREETINGS
+Librarian	: fine. -> GREETINGS_REPLY
+Student	: I don't think that I will return this book. -> REISSUE
+Librarian	: Do you think of reissuing this book? -> REISSUE_INFO_REQUEST
+Student	: Yes sir. -> ACCEPT
+Librarian	: Give your id card to me. -> ACTION_DIR
+Student	: Ok sir, take my id card. -> COMMIT
+Librarian	: I am extending the book's due date. The due date will end in a month. Then you should return it. -> REISSUE_ASSERT
+Student	: Ok sir, i will bring the book in a month. -> ACCEPT_ACKNOWLEDGE
+Student	: Thank you. -> GREETINGS_EOC
+
+49
+
+Direct##
+
+Reissue
+------------------
+
+Student	: Hello sir. -> GREETINGS
+Librarian	: Hello. -> GREETINGS_REPLY
+Student	: I will not return this book. -> REISSUE
+Librarian	: Do you think of reissuing this book? -> REISSUE_INFO_REQUEST
+Student	: Yes sir. -> ACCEPT
+Librarian	: Give your id card to me. -> ACTION_DIR
+Student	: Ok sir, take my id card. -> COMMIT
+Librarian	: I am extending the book's due date. The due date will end in a month. Then you should return it. -> REISSUE_ASSERT
+Student	: Ok sir, i will bring the book in a month. -> ACCEPT_ACKNOWLEDGE
+Student	: Thank you. -> GREETINGS_EOC
+
+50
+
+Direct##
+
+Reissue
+------------------
+
+Student	: How are you sir? -> GREETINGS
+Librarian	: fine. -> GREETINGS_REPLY
+Student	: I wont exchange this book with another one. -> REISSUE
+Librarian	: Do you think of reissuing this book? -> REISSUE_INFO_REQUEST
+Student	: Yes sir. -> ACCEPT
+Librarian	: Give your id card to me. -> ACTION_DIR
+Student	: Ok sir, take my id card. -> COMMIT
+Librarian	: I am extending the book's due date. The due date will end in a month. Then you should return it. -> REISSUE_ASSERT
+Student	: Ok sir, i will bring the book in a month. -> ACCEPT_ACKNOWLEDGE
+Student	: Thank you. -> GREETINGS_EOC
+
+51
+
+Direct##
+
+Reissue
+------------------
+
+Student	: How are you sir? -> GREETINGS
+Librarian	: fine. -> GREETINGS_REPLY
+Student	: There are more topics in this book that i have to read. -> REISSUE
+Librarian	: Do you think of reissuing this book? -> REISSUE_INFO_REQUEST
+Student	: Yes sir. -> ACCEPT
+Librarian	: Give your id card to me. -> ACTION_DIR
+Student	: Ok sir, take my id card. -> COMMIT
+Librarian	: I am extending the book's due date. The due date will end in a month. Then you should return it. -> REISSUE_ASSERT
+Student	: Ok sir, i will bring the book in a month. -> ACCEPT_ACKNOWLEDGE
+Student	: Thank you. -> GREETINGS_EOC
+
+52
+
+Direct##
+
+Reissue
+------------------
+
+Student	: How are you sir? -> GREETINGS
+Librarian	: fine. It's been a lot of days, since i saw you. -> GREETINGS_REPLY
+Student	: I will return this book the next time. For now reissue me this book. -> REISSUE
+Librarian	: Do you think of reissuing this book? -> REISSUE_INFO_REQUEST
+Student	: Yes sir. -> ACCEPT
+Librarian	: Give your id card to me. -> ACTION_DIR
+Student	: Ok sir, take my id card. -> COMMIT
+Librarian	: I am extending the book's due date. The due date will end in a month. Then you should return it. -> REISSUE_ASSERT
+Student	: Ok sir, i will bring the book in a month. -> ACCEPT_ACKNOWLEDGE
+Student	: Thank you. -> GREETINGS_EOC
+
+53
+
+Indirect##
+
+Reissue
+------------------
+
+Student	: How are you sir? -> GREETINGS
+Librarian	: fine. It's been a lot of days, since i saw you. -> GREETINGS_REPLY
+Student	: This book has more related topics for me to study.  -> REISSUE
+Librarian	: Give your id card to me. -> ACTION_DIR
+Student	: Ok sir, take my id card. -> COMMIT
+Librarian	: I am extending the book's due date. The due date will end in a month. Then you should return it. -> REISSUE_ASSERT
+Student	: Ok sir, i will bring the book in a month. -> ACCEPT_ACKNOWLEDGE
+Student	: Thank you. -> GREETINGS_EOC
+
+54
+
+Indirect##
+
+Reissue
+------------------
+
+Student	: Hello sir. -> GREETINGS
+Librarian	: Hello. -> GREETINGS_REPLY
+Student	: Give me this book once again. -> REISSUE
+Librarian	: Do you think of reissuing this book? -> REISSUE_INFO_REQUEST
+Student	: Yes sir. -> ACCEPT
+Librarian	: Give your id card to me. -> ACTION_DIR
+Student	: Ok sir, take my id card. -> COMMIT
+Librarian	: I am extending the book's due date. The due date will end in a month. Then you should return it. -> REISSUE_ASSERT
+Student	: Ok sir, i will bring the book in a month. -> ACCEPT_ACKNOWLEDGE
+Student	: Thank you. -> GREETINGS_EOC
+
+55
+
+Indirect##
+
+Reissue
+------------------
+
+Student	: Hello sir. -> GREETINGS
+Librarian	: Hello. -> GREETINGS_REPLY
+Student	: I want to read this book again and again. -> REISSUE
+Librarian	: Do you think of reissuing this book? -> REISSUE_INFO_REQUEST
+Student	: Yes sir. -> ACCEPT
+Librarian	: Give your id card to me. -> ACTION_DIR
+Student	: Ok sir, take my id card. -> COMMIT
+Librarian	: I am extending the book's due date. The due date will end in a month. Then you should return it. -> REISSUE_ASSERT
+Student	: Ok sir, i will bring the book in a month. -> ACCEPT_ACKNOWLEDGE
+Student	: Thank you. -> GREETINGS_EOC
+
